@@ -1,0 +1,132 @@
+{
+    "dev-front-end":{
+        "dev":{
+            "javascript":{
+                "framework":{
+                    "angular":{
+                        "description":"A platform for building mobile and desktop web applications.",
+                        "image":"path/to/image.png"
+                    },
+                    "angular.js":{
+                        "description":"A structural framework for dynamic web apps.",
+                        "image":"path/to/image.png"
+                    },
+                    "ember.js":{
+                        "description":"A framework for creating ambitious web applications.",
+                        "image":"path/to/image.png"
+                    },
+                    "react.js":{
+                        "description":"A JavaScript library for building user interfaces.",
+                        "image":"path/to/image.png"
+                    },
+                    "JSF / Jakarta Faces":{
+                        "description":"A Java specification for building component-based user interfaces for web applications.",
+                        "image":"path/to/image.png"
+                    },
+                    "vue.js":{
+                        "description":"A progressive framework for building user interfaces.",
+                        "image":"path/to/image.png"
+                    },
+                    "svelte":{
+                        "description":"A compiler that generates minimal and highly optimized JavaScript code for building user interfaces.",
+                        "image":"path/to/image.png"
+                    },
+                    "backbone.js":{
+                        "description":"A lightweight JavaScript library that adds structure to web applications.",
+                        "image":"path/to/image.png"
+                    },
+                    "vanilla.js":{
+                        "description":"Plain JavaScript without any libraries or frameworks.",
+                        "image":"path/to/image.png"
+                    }
+                }
+            },
+            "css":{
+                "framework":{
+                    "bootstrap":{
+                        "description":"A popular front-end framework for developing responsive and mobile-first websites.",
+                        "image":"path/to/image.png"
+                    },
+                    "foundation":{
+                        "description":"A responsive front-end framework similar to Bootstrap.",
+                        "image":"path/to/image.png"
+                    },
+                    "less":{
+                        "description":"A dynamic preprocessor style sheet language that can be compiled into CSS.",
+                        "image":"path/to/image.png"
+                    },
+                    "sass":{
+                        "description":"A preprocessor scripting language that is interpreted or compiled into CSS.",
+                        "image":"path/to/image.png"
+                    }
+                }
+            },
+            "html":{
+                "framework":{
+                    "bootstrap":{
+                        "description":"A popular front-end framework for developing responsive and mobile-first websites.",
+                        "image":"path/to/image.png"
+                    },
+                    "foundation":{
+                        "description":"A responsive front-end framework similar to Bootstrap.",
+                        "image":"path/to/image.png"
+                    }
+                }
+            },
+            "java":{
+                "GWT":{
+                    "description":"A development toolkit for building and optimizing complex browser-based applications.",
+                    "image":"path/to/image.png"
+                },
+                "JSF":{
+                    "description":"A framework that allows Java code to be compiled into JavaScript.",
+                    "image":"path/to/image.png"
+                },
+                "Java FX":{
+                    "description":"A platform for creating and delivering desktop applications with rich content.",
+                    "image":"path/to/image.png"
+                },
+                "Vaadin":{
+                    "description":"A platform for building web applications in Java.",
+                    "image":"path/to/image.png"
+                }
+            },
+            "c#":{
+                "blazor":{
+                    "description":"A framework for building interactive web UIs using C#.",
+                    "image":"path/to/image.png"
+                }
+            },
+            "elm":{
+                "description":"A functional language that compiles to JavaScript.",
+                "image":"path/to/image.png"
+            }
+        },
+        "design":{
+            "UI/UX design":{
+                "Wireframes":{
+                    "Figma":{
+                        "description":"A web-based design tool for interface design and prototyping.",
+                        "image":"path/to/image.png"
+                    },
+                    "Adobe XD":{
+                        "description":"A vector-based user experience design tool for web apps and mobile apps.",
+                        "image":"path/to/image.png"
+                    },
+                    "Balsamiq":{
+                        "description":"A rapid wireframing tool that helps you work faster & smarter.",
+                        "image":"path/to/image.png"
+                    },
+                    "Sketch":{
+                        "description":"A digital design app for macOS focused on user interface and user experience design.",
+                        "image":"path/to/image.png"
+                    },
+                    "InVision":{
+                        "description":"A digital product design platform used to make prototypes, collaborate, and manage design projects.",
+                        "image":"path/to/image.png"
+                    }
+                }
+            }
+        }
+    }
+}
