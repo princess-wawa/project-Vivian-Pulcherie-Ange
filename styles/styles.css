@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10% 0 10%;
+}
+
+.header-container img{
+    height: auto;
+    width: 20%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.searchbar {
+    width: 20%;
+    text-align: right;
+}
+
+.searchbar input{
+    width: 100%;
+}

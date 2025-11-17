@@ -1,0 +1,56 @@
+.tree-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 5% 0 5%;
+}
+
+.tree-nav .dropbtn {
+    padding: .4rem .8rem;
+    cursor: pointer;
+    border: none;
+    background: none;
+    border-radius: 10px;
+}
+
+.tree-nav .dropbtn:hover,
+.tree-nav .dropbtn:focus {
+    background-color: #f0f0f0;
+}
+
+.tree-nav .dropdown {
+    position: relative;
+    min-width: max-content;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+}
+
+.tree-nav .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 200%;
+    left: auto  ;
+    background: #fff;
+    border: 1px solid #ccc;
+    min-width: 200px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .08);
+    z-index: 10;
+}
+
+.tree-nav .dropdown-content a {
+    display: block;
+    padding: .45rem .75rem;
+    text-decoration: none;
+    color: #222;
+    white-space: nowrap;
+}
+
+.tree-nav .dropdown.open .dropdown-content,
+.tree-nav .dropdown:focus-within .dropdown-content {
+    display: block;
+}
+
+.tree-nav .dropdown-content a:hover {
+    background: #f0f0f0;
+}
