@@ -3,16 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <title>Carte des technologies</title>
-    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/navigation.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
 </head>
 <body>
     <header>
-        <h1>Carte des technologies</h1>
+        <div class="header-container">
+            <img src="data/images/logo-externatic.svg" alt="Logo" />
+            <h1>Carte des technologies</h1>
+
+                <div class="searchbar">
+                    <input type="text" id="search-input" placeholder="Recherche ..." /> 
+                </div>
+        </div>  
+
+        <nav class="tree-nav">
+            <div class="dropdown">
+                <button class="dropbtn" aria-haspopup="true" aria-expanded="false">dev mobile</button>
+
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn" aria-haspopup="true" aria-expanded="false">cybersécurité</button>
+
+            </div>  
+            <div class="dropdown">
+                <button class="dropbtn" aria-haspopup="true" aria-expanded="false">bases de données</button>
+
+            </div>  
+            <div class="dropdown">
+                <button class="dropbtn" aria-haspopup="true" aria-expanded="false">Bonne pratiques de dev</button>
+
+            </div>  
+            <div class="dropdown">
+                <button class="dropbtn" aria-haspopup="true" aria-expanded="false">Dev front end</button>
+                <div class="dropdown-content" role="menu" aria-label="dev mobile submenu">
+                    <a href="#">dev</a>
+                    <a href="#">design</a>
+                </div>
+            </div>  
+            <div class="dropdown">
+                <button class="dropbtn" aria-haspopup="true" aria-expanded="false">Dev back end</button>
+                    <a href="#">Serveur web</a>
+                    <a href="#">Serveur d'application linux</a>
+                    <a href="#">api/webservices</a>
+                    <a href="#">dev</a>
+                    <a href="#">ORM</a>
+            </div>  
+            <div class="dropdown">
+                <button class="dropbtn" aria-haspopup="true" aria-expanded="false">outils de dev</button>
+
+            </div>  
+            <div class="dropdown">
+                <button class="dropbtn" aria-haspopup="true" aria-expanded="false">DATA / IA</button>
+
+            </div>  
+            <div class="dropdown">
+                <button class="dropbtn" aria-haspopup="true" aria-expanded="false">Gestion de projets</button>
+
+            </div>  
+            <div class="dropdown">
+                <button class="dropbtn" aria-haspopup="true" aria-expanded="false">DEVOPS</button>
+
+            </div>  
+            <div class="dropdown">
+                <button class="dropbtn" aria-haspopup="true" aria-expanded="false">Systemes et réseaux</button>
+
+            </div>  
+            <div class="dropdown">
+                <button class="dropbtn" aria-haspopup="true" aria-expanded="false">Temps réel embarqué</button>
+
+            </div>           
+        </nav>
     </header>
 
-    <main>
+
+<main>
         <section id="tech-list"></section>
     </main>
-     <script src="scripts/main.js" defer></script>
+     <script src="scripts/tree.js" defer></script>
 </body>
 </html>
