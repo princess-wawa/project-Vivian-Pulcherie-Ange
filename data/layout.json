@@ -1,76 +1,85 @@
 {
-    "dev-front-end":{
+    "DEV FROND END":{
         "dev":{
             "javascript":{
-                "framework":{
-                    "angular":{
-                        "description":"Angular (également appelé Angular 2+ pour le distinguer de son prédécesseur AngularJS) est un framework pour clients, open source, basé sur TypeScript et codirigé par l'équipe du projet « Angular » chez Google ainsi que par une communauté de particuliers et de sociétés. Angular est une réécriture complète d'AngularJS. Il permet la création d’applications Web et plus particulièrement d'applications Web monopages : des applications Web accessibles via une page Web unique qui permet de fluidifier l’expérience utilisateur et d’éviter les chargements de pages à chaque nouvelle action. Le framework est basé sur une architecture du type MVC et permet donc de séparer les données, le visuel et les actions pour une meilleure gestion des responsabilités. Selon l'enquête Stack Overflow auprès des développeurs, Angular est l'un des frameworks web les plus utilisés.",
-                        "image":"data/img/angular.png"
-                    },
-                    "angular.js":{
-                        "description":"AngularJS est un cadre open source populaire qui simplifie le développement web en créant des applications interactives à une page (SPA). Contrairement aux sites traditionnels qui chargent de nouvelles pages à chaque clic, les SPA offrent une expérience utilisateur plus fluide en mettant à jour le contenu sur la même page. AngularJS rend cela possible en transformant le HTML statique en contenu dynamique qui s’adapte aux interactions utilisateurs. Des fonctionnalités comme la liaison de données et l’injection de dépendances simplifient le développement, vous faisant gagner du temps et des efforts. Grâce à des mises à jour régulières et une grande communauté, AngularJS garantit que vos applications web restent modernes et efficaces.",
-                        "image":"data/img/angularjs.png"
-                    },
-                    "ember.js":{
-                        "description":"Ember.js est un framework open source JavaScript côté client utilisé pour développer des applications Web. Il permet de créer des applications JavaScript côté client en fournissant une solution complète qui contient la gestion des données et un flux d'application.",
-                        "image":"data/img/ember.png"
-                    },
-                    "react.js":{
-                        "description":"React, également connu sous le nom de React.js ou ReactJS, est une bibliothèque JavaScript open source conçue pour la création d’interfaces utilisateur ou UI (User Interface). Développée par Facebook en 2013, cette bibliothèque se concentre principalement sur le développement d’interfaces pour des applications web monopages. Elle permet aux développeurs de créer des composants réutilisables et interactifs qui peuvent maintenir leur état (state) sans avoir besoin de recharger la page.",
-                        "image":"data/img/reactjs.png"
-                    },
-                    "JSF / Jakarta Faces":{
-                        "description":"Jakarta Faces, anciennement Jakarta Server Faces et JavaServer Faces (JSF), est une spécification Java destinée à la création d’interfaces utilisateur basées sur des composants pour les applications web. [2] Il a été formalisé en tant que norme via le Java Community Process dans le cadre de la Java Platform, Enterprise Edition. C’est un framework web MVC qui simplifie la construction d’interfaces utilisateur (UI) pour les applications serveur en utilisant des composants UI réutilisables dans une page.",
-                        "image":"data/img/jakarta.png"
-                    },
-                    "vue.js":{
-                        "description":"Vue.js est une librairie JavaScript open source utilisée pour construire des interfaces utilisateur (UI) et des applications monopages (SPA – Single Page Applications). Créée par Evan You en 2014, elle a rapidement gagné en popularité en raison de sa facilité d’intégration avec d’autres projets et bibliothèques ainsi que pour sa souplesse et sa légèreté. Vue.js se concentre sur la couche de vue et peut être aisément adopté pour gérer la couche d’interaction dans des applications web.Vue.js fonctionne sur le modèle MVVM (Modèle-Vue-Modèle de Vue), permettant aux développeurs de séparer la logique métier des interfaces, favorisant ainsi la maintenance et la gestion de projets complexes. La réactivité est au cœur de Vue.js : à chaque fois qu’un état d’une application change, la vue se met automatiquement à jour pour refléter ce changement.",
-                        "image":"data/img/vuejs.png"
-                    },
-                    "svelte":{
-                        "description":"Svelte est un framework JavaScript moderne qui simplifie le développement d’applications web réactives. Il fait cela en transformant votre code au moment de la compilation, ce qui signifie que le code généré est allégé, sans runtime supplémentaire. Cela résout une problématique courante chez d’autres frameworks où la complexité du code peut affecter les performances de l’application. La force de Svelte réside également dans sa simplicité d’utilisation. Grâce à une syntaxe claire et intuitive, même les développeurs débutants peuvent rapidement comprendre et créer des applications sans être submergés par une multitude de configurations. La conception modulaire de ses composants permet de construire des interfaces utilisateur plus réactives et dynamiques, rendant l’expérience de développement fluide.",
-                        "image":"data/img/svelte.png"
-                    },
-                    "backbone.js":{
-                        "description":"Backbone.js structure les applications web en fournissant des modèles avec une liaison clé-valeur et des événements personnalisés, des collections avec une API riche de fonctions énumérables, des vues avec gestion déclarative des événements, et en connectant le tout à votre API existante sur une interface JSON RESTful. Le projet est hébergé sur GitHub, et que le code source annoté est disponible, ainsi qu’une suite de tests en ligne, un exemple d’application, une liste de tutoriels et une longue liste de projets du monde réel qui utilisent Backbone. Backbone peut être utilisé sous la licence logicielle MIT.",
-                        "image":"data/img/backbone.png"
-                    },
-                    "vanilla.js":{
-                        "description":"Vanilla JavaScript fait référence à un code JavaScript pur, ce qui signifie qu’il ne contient pas de bibliothèques ou de cadres supplémentaires comme jQuery, ce qui en fait une forme pure et fondamentale du langage de programmation Javascript. Rapide, léger et multiplateforme, il peut vous aider à créer des applications incroyablement puissantes et des pages web dynamiques. Les développeurs ont souvent le choix entre utiliser la bibliothèque JavaScript ou la créer de toutes pièces. En effet, les bibliothèques disposent de fonctions et d’outils prêts à l’emploi qui accélèrent le développement d’applications web.",
-                        "image":"data/img/vanillajs.png"
-                    }
+                "angular":{
+                    "tag": "framework",
+                    "description":"Angular (également appelé Angular 2+ pour le distinguer de son prédécesseur AngularJS) est un framework pour clients, open source, basé sur TypeScript et codirigé par l'équipe du projet « Angular » chez Google ainsi que par une communauté de particuliers et de sociétés. Angular est une réécriture complète d'AngularJS. Il permet la création d’applications Web et plus particulièrement d'applications Web monopages : des applications Web accessibles via une page Web unique qui permet de fluidifier l’expérience utilisateur et d’éviter les chargements de pages à chaque nouvelle action. Le framework est basé sur une architecture du type MVC et permet donc de séparer les données, le visuel et les actions pour une meilleure gestion des responsabilités. Selon l'enquête Stack Overflow auprès des développeurs, Angular est l'un des frameworks web les plus utilisés.",
+                    "image":"data/img/angular.png"
+                },
+                "angular.js":{
+                    "tag": "framework",
+                    "description":"AngularJS est un cadre open source populaire qui simplifie le développement web en créant des applications interactives à une page (SPA). Contrairement aux sites traditionnels qui chargent de nouvelles pages à chaque clic, les SPA offrent une expérience utilisateur plus fluide en mettant à jour le contenu sur la même page. AngularJS rend cela possible en transformant le HTML statique en contenu dynamique qui s’adapte aux interactions utilisateurs. Des fonctionnalités comme la liaison de données et l’injection de dépendances simplifient le développement, vous faisant gagner du temps et des efforts. Grâce à des mises à jour régulières et une grande communauté, AngularJS garantit que vos applications web restent modernes et efficaces.",
+                    "image":"data/img/angularjs.png"
+                },
+                "ember.js":{
+                    "tag": "framework",
+                    "description":"Ember.js est un framework open source JavaScript côté client utilisé pour développer des applications Web. Il permet de créer des applications JavaScript côté client en fournissant une solution complète qui contient la gestion des données et un flux d'application.",
+                    "image":"data/img/ember.png"
+                },
+                "react.js":{
+                    "tag": "framework",
+                    "description":"React, également connu sous le nom de React.js ou ReactJS, est une bibliothèque JavaScript open source conçue pour la création d’interfaces utilisateur ou UI (User Interface). Développée par Facebook en 2013, cette bibliothèque se concentre principalement sur le développement d’interfaces pour des applications web monopages. Elle permet aux développeurs de créer des composants réutilisables et interactifs qui peuvent maintenir leur état (state) sans avoir besoin de recharger la page.",
+                    "image":"data/img/reactjs.png"
+                },
+                "JSF / Jakarta Faces":{
+                    "tag": "framework",
+                    "description":"Jakarta Faces, anciennement Jakarta Server Faces et JavaServer Faces (JSF), est une spécification Java destinée à la création d’interfaces utilisateur basées sur des composants pour les applications web. [2] Il a été formalisé en tant que norme via le Java Community Process dans le cadre de la Java Platform, Enterprise Edition. C’est un framework web MVC qui simplifie la construction d’interfaces utilisateur (UI) pour les applications serveur en utilisant des composants UI réutilisables dans une page.",
+                    "image":"data/img/jakarta.png"
+                },
+                "vue.js":{
+                    "tag": "framework",
+                    "description":"Vue.js est une librairie JavaScript open source utilisée pour construire des interfaces utilisateur (UI) et des applications monopages (SPA – Single Page Applications). Créée par Evan You en 2014, elle a rapidement gagné en popularité en raison de sa facilité d’intégration avec d’autres projets et bibliothèques ainsi que pour sa souplesse et sa légèreté. Vue.js se concentre sur la couche de vue et peut être aisément adopté pour gérer la couche d’interaction dans des applications web.Vue.js fonctionne sur le modèle MVVM (Modèle-Vue-Modèle de Vue), permettant aux développeurs de séparer la logique métier des interfaces, favorisant ainsi la maintenance et la gestion de projets complexes. La réactivité est au cœur de Vue.js : à chaque fois qu’un état d’une application change, la vue se met automatiquement à jour pour refléter ce changement.",
+                    "image":"data/img/vuejs.png"
+                },
+                "svelte":{
+                    "tag": "framework",
+                    "description":"Svelte est un framework JavaScript moderne qui simplifie le développement d’applications web réactives. Il fait cela en transformant votre code au moment de la compilation, ce qui signifie que le code généré est allégé, sans runtime supplémentaire. Cela résout une problématique courante chez d’autres frameworks où la complexité du code peut affecter les performances de l’application. La force de Svelte réside également dans sa simplicité d’utilisation. Grâce à une syntaxe claire et intuitive, même les développeurs débutants peuvent rapidement comprendre et créer des applications sans être submergés par une multitude de configurations. La conception modulaire de ses composants permet de construire des interfaces utilisateur plus réactives et dynamiques, rendant l’expérience de développement fluide.",
+                    "image":"data/img/svelte.png"
+                },
+                "backbone.js":{
+                    "tag": "framework",
+                    "description":"Backbone.js structure les applications web en fournissant des modèles avec une liaison clé-valeur et des événements personnalisés, des collections avec une API riche de fonctions énumérables, des vues avec gestion déclarative des événements, et en connectant le tout à votre API existante sur une interface JSON RESTful. Le projet est hébergé sur GitHub, et que le code source annoté est disponible, ainsi qu’une suite de tests en ligne, un exemple d’application, une liste de tutoriels et une longue liste de projets du monde réel qui utilisent Backbone. Backbone peut être utilisé sous la licence logicielle MIT.",
+                    "image":"data/img/backbone.png"
+                },
+                "vanilla.js":{
+                    "tag": "framework",
+                    "description":"Vanilla JavaScript fait référence à un code JavaScript pur, ce qui signifie qu’il ne contient pas de bibliothèques ou de cadres supplémentaires comme jQuery, ce qui en fait une forme pure et fondamentale du langage de programmation Javascript. Rapide, léger et multiplateforme, il peut vous aider à créer des applications incroyablement puissantes et des pages web dynamiques. Les développeurs ont souvent le choix entre utiliser la bibliothèque JavaScript ou la créer de toutes pièces. En effet, les bibliothèques disposent de fonctions et d’outils prêts à l’emploi qui accélèrent le développement d’applications web.",
+                    "image":"data/img/vanillajs.png"
                 }
             },
             "css":{
-                "framework":{
-                    "bootstrap":{
-                        "description":"Bootstrap est une collection d'outils utiles à la création du design (graphisme, animation et interactions avec la page dans le navigateur, etc.) de sites et d'applications web. C'est un ensemble qui contient des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres éléments interactifs, ainsi que des extensions JavaScript en option. C'est l'un des projets les plus populaires sur la plate-forme de gestion de développement GitHub.",
-                        "image":"data/img/bootstrap.png"
-                    },
-                    "foundation":{
-                        "description":"Foundation est un framework front-end réactif gratuit, fournissant une grille réactive et des composants d’interface utilisateur HTML et CSS, des modèles et des extraits de code, y compris la typographie, les formulaires, les boutons, la navigation et d’autres éléments d’interface, ainsi que des fonctionnalités facultatives fournies par les extensions JavaScript. Foundation est un projet open source, et était auparavant maintenu par ZURB. Depuis 2019, la Fondation est entretenue par des bénévoles.",
-                        "image":"data/img/foundation.png"
-                    },
-                    "less":{
-                        "description":"Less.js est un préprocesseur CSS qui étend les fonctionnalités de CSS en ajoutant des éléments tels que les variables, les mixin, et les fonctions. Il permet de créer des feuilles de style dynamiques et de réduire la répétition, facilitant ainsi la maintenance et l'extension des styles. Less.js peut être exécuté soit côté client, soit côté serveur, ce qui améliore la performance des sites web.",
-                        "image":"data/img/less.png"
-                    },
-                    "sass":{
-                        "description":"Sass (Syntactically awesome stylesheets) est un langage de script préprocesseur qui est compilé ou interprété en CSS (Cascading Style Sheets). SassScript est le langage de script en lui-même. Sass est disponible en deux syntaxes. La syntaxe originale, appelée « syntaxe indentée » qui utilise l'indentation pour séparer les blocs de code et les sauts de ligne pour les séparer des directives. La nouvelle syntaxe, « SCSS », utilise les mêmes séparateurs de blocs que CSS. Les fichiers de la syntaxe indentée et SCSS utilisent respectivement les extensions .sass et .scss.",
-                        "image":"data/img/sass.png"
-                    }
+                "bootstrap":{
+                    "tag": "framework",
+                    "description":"Bootstrap est une collection d'outils utiles à la création du design (graphisme, animation et interactions avec la page dans le navigateur, etc.) de sites et d'applications web. C'est un ensemble qui contient des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres éléments interactifs, ainsi que des extensions JavaScript en option. C'est l'un des projets les plus populaires sur la plate-forme de gestion de développement GitHub.",
+                    "image":"data/img/bootstrap.png"
+                },
+                "foundation":{
+                    "tag": "framework",
+                    "description":"Foundation est un framework front-end réactif gratuit, fournissant une grille réactive et des composants d’interface utilisateur HTML et CSS, des modèles et des extraits de code, y compris la typographie, les formulaires, les boutons, la navigation et d’autres éléments d’interface, ainsi que des fonctionnalités facultatives fournies par les extensions JavaScript. Foundation est un projet open source, et était auparavant maintenu par ZURB. Depuis 2019, la Fondation est entretenue par des bénévoles.",
+                    "image":"data/img/foundation.png"
+                },
+                "less":{
+                    "tag": "framework",
+                    "description":"Less.js est un préprocesseur CSS qui étend les fonctionnalités de CSS en ajoutant des éléments tels que les variables, les mixin, et les fonctions. Il permet de créer des feuilles de style dynamiques et de réduire la répétition, facilitant ainsi la maintenance et l'extension des styles. Less.js peut être exécuté soit côté client, soit côté serveur, ce qui améliore la performance des sites web.",
+                    "image":"data/img/less.png"
+                },
+                "sass":{
+                    "tag": "framework",
+                    "description":"Sass (Syntactically awesome stylesheets) est un langage de script préprocesseur qui est compilé ou interprété en CSS (Cascading Style Sheets). SassScript est le langage de script en lui-même. Sass est disponible en deux syntaxes. La syntaxe originale, appelée « syntaxe indentée » qui utilise l'indentation pour séparer les blocs de code et les sauts de ligne pour les séparer des directives. La nouvelle syntaxe, « SCSS », utilise les mêmes séparateurs de blocs que CSS. Les fichiers de la syntaxe indentée et SCSS utilisent respectivement les extensions .sass et .scss.",
+                    "image":"data/img/sass.png"
                 }
             },
             "html":{
-                "framework":{
-                    "bootstrap":{
-                        "description":"A popular front-end framework for developing responsive and mobile-first websites.",
-                        "image":"path/to/image.png"
-                    },
-                    "foundation":{
-                        "description":"A responsive front-end framework similar to Bootstrap.",
-                        "image":"path/to/image.png"
-                    }
+                "bootstrap":{
+                    "tag": "framework",
+                    "description":"A popular front-end framework for developing responsive and mobile-first websites.",
+                    "image":"path/to/image.png"
+                },
+                "foundation":{
+                    "tag": "framework",
+                    "description":"A responsive front-end framework similar to Bootstrap.",
+                    "image":"path/to/image.png"
                 }
             },
             "java":{
@@ -103,28 +112,31 @@
             }
         },
         "design":{
-            "UI/UX design":{
-                "Wireframes":{
-                    "Figma":{
-                        "description":"A web-based design tool for interface design and prototyping.",
-                        "image":"path/to/image.png"
-                    },
-                    "Adobe XD":{
-                        "description":"A vector-based user experience design tool for web apps and mobile apps.",
-                        "image":"path/to/image.png"
-                    },
-                    "Balsamiq":{
-                        "description":"A rapid wireframing tool that helps you work faster & smarter.",
-                        "image":"path/to/image.png"
-                    },
-                    "Sketch":{
-                        "description":"A digital design app for macOS focused on user interface and user experience design.",
-                        "image":"path/to/image.png"
-                    },
-                    "InVision":{
-                        "description":"A digital product design platform used to make prototypes, collaborate, and manage design projects.",
-                        "image":"path/to/image.png"
-                    }
+            "UX/UI designer":{
+                "Figma":{
+                    "tag":"Wireframe",
+                    "description":"A web-based design tool for interface design and prototyping.",
+                    "image":"path/to/image.png"
+                },
+                "Adobe XD":{
+                    "tag":"Wireframe",
+                    "description":"A vector-based user experience design tool for web apps and mobile apps.",
+                    "image":"path/to/image.png"
+                },
+                "Balsamiq":{
+                    "tag":"Wireframe",
+                    "description":"A rapid wireframing tool that helps you work faster & smarter.",
+                    "image":"path/to/image.png"
+                },
+                "Sketch":{
+                    "tag":"Wireframe",
+                    "description":"A digital design app for macOS focused on user interface and user experience design.",
+                    "image":"path/to/image.png"
+                },
+                "InVision":{
+                    "tag":"Wireframe",
+                    "description":"A digital product design platform used to make prototypes, collaborate, and manage design projects.",
+                    "image":"path/to/image.png"
                 }
             }
         }
@@ -134,11 +146,13 @@
             "Nginx":{
                 "description":"A high-performance web server and reverse proxy server.",
                 "image":"path/to/image.png"
-            },"Apache":{
+            },
+            "Apache":{
                 "description":"A widely-used open source web server software.",
                 "image":"path/to/image.png"
     
-            },"Caddy":{
+            },
+            "Caddy":{
                 "description":"An open-source web server with automatic HTTPS.",
                 "image":"path/to/image.png"
             }
@@ -148,40 +162,61 @@
                 "Webssphere":{
                     "description":"An application server for building and managing Java EE applications.",
                     "image":"path/to/image.png"
-                },"Weblogic":{
+                },
+                "Weblogic":{
                     "description":"A Java EE application server currently developed by Oracle Corporation.",
                     "image":"path/to/image.png"
-                },"Wildfly":{
+                },
+                "Wildfly":{
                     "description":"A flexible, lightweight, managed application runtime that helps you build amazing applications.",
                     "image":"path/to/image.png"
-                    
-                },"WildflyTomcat":{
+                },
+                "WildflyTomcat":{
                     "description":"An open-source implementation of the Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket technologies.",
                     "image":"path/to/image.png"
-                  ,  },"Glassfish":{
+                },
+                "Glassfish":{
                     "description":"An open-source application server project for the Java EE platform.",
                     "image":"path/to/image.png"
-
-                  }
+                }
+            },
+            "PHP":{
+                "XAMPP":{
+                    "description":"A free and open-source cross-platform web server solution stack package.",
+                    "image":"path/to/image.png"
+                },
+                "WAMP Serveur":{
+                    "description":"A Windows web development environment that allows you to create web applications with Apache2, PHP and a MySQL database.",
+                    "image":"path/to/image.png"
+                },
+                "LAMP Stack":{
+                    "description":"A popular open-source web development stack consisting of Linux, Apache, MySQL, and PHP.",
+                    "image":"path/to/image.png"
+                },
+                "LiteSpeed":{
+                    "description":"A high-performance web server and application server for PHP.",
+                    "image":"path/to/image.png"
+                }
             }
         },
-        "PHP":{
-            "XAMPP":{
-                "description":"A free and open-source cross-platform web server solution stack package.",
-                "image":"path/to/image.png",
-            
-            },"WAMP Serveur":{
-                "description":"A Windows web development environment that allows you to create web applications with Apache2, PHP and a MySQL database.",
+        "API/Webservices":{
+            "Rest":{
+                "description":"An architectural style for designing networked applications.",
                 "image":"path/to/image.png"
-        }
-    },
-    "LAMP Stack":{
-            "description":"A popular open-source web development stack consisting of Linux, Apache, MySQL, and PHP.",
-            "image":"path/to/image.png"
-        
-
-    },
-    "Dev":{
+            },
+            "WS SOAP":{
+                "description":"A protocol for exchanging structured information in web services.",
+                "image":"path/to/image.png"
+            },
+            "GraphQL":{
+                "description":"A query language for APIs and a runtime for executing those queries.",
+                "image":"path/to/image.png"
+            },
+            "RPC":{
+                "description":"A protocol that one program can use to request a service from a program located on another computer in a network.",
+                "image":"path/to/image.png"
+            }
+        },
         "Langages de programmation":{
             "Rust":{
                 "Axum":{
@@ -196,123 +231,1378 @@
                     "description":"A web framework for Rust that makes it simple to write fast web applications.",
                     "image":"path/to/image.png"
                 }
-            },
+            },        
             "Python":{
-                "framework":{
-                    "Django":{
-                        "description":"A high-level Python web framework that encourages rapid development and clean, pragmatic design.",
-                        "image":"path/to/image.png"
-                    },
-                    "Flask":{
-                        "description":"A lightweight WSGI web application framework in Python.",
-                        "image":"path/to/image.png"
-                    },
-                    "FastAPI":{
-                        "description":"A modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.",
-                        "image":"path/to/image.png"
-                    }
+                "Django":{
+                    "tag": "framework",
+                    "description":"A high-level Python web framework that encourages rapid development and clean, pragmatic design.",
+                    "image":"path/to/image.png"
+                },
+                "Flask":{
+                    "tag": "framework",
+                    "description":"A lightweight WSGI web application framework in Python.",
+                    "image":"path/to/image.png"
+                },
+                "FastAPI":{
+                    "tag": "framework",
+                    "description":"A modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.",
+                    "image":"path/to/image.png"
                 },
                 "Tornado":{
+                    "tag": "framework",
                     "description":"A scalable, non-blocking web server and web application framework for Python.",
                     "image":"path/to/image.png"
                 },
                 "CherryPy":{
+                    "tag": "framework",
                     "description":"A minimalist Python web framework.",
                     "image":"path/to/image.png"
+                }
+            },
+            "C++":{
+                "Qt":{
+                    "description":"A free and open-source widget toolkit for creating graphical user interfaces as well as cross-platform applications.",
+                    "image":"path/to/image.png"
+                },
+                "wxWidgets":{
+                    "description":"A C++ library that lets developers create applications for Windows, macOS, Linux and other platforms with a single code base.",
+                    "image":"path/to/image.png"
+                },
+                "ImGUI":{
+                    "description":"A bloat-free graphical user interface library for C++.",
+                    "image":"path/to/image.png"
+                }
                 
+            },
+            "Kotlin":{
+                "Ktor":{
+                    "description":"A framework for building asynchronous servers and clients in connected systems using the powerful Kotlin programming language.",
+                    "image":"path/to/image.png"
+                },
+                "Micronaut":{
+                    "description":"A modern, JVM-based, full-stack framework for building modular, easily testable microservice and serverless applications.",
+                    "image":"path/to/image.png"
+
+                },
+                "Quarkus":{
+                    "description":"A Kubernetes-native Java framework tailored for GraalVM and OpenJDK HotSpot, crafted from the best of breed Java libraries and standards.",
+                    "image":"path/to/image.png"
+                },
+                "Spring Framework":{
+                    "description":"A powerful, feature-rich framework for building Java applications, including web applications and microservices.",
+                    "image":"path/to/image.png"
+                }
+            },
+            "PHP":{
+                "Symfony":{
+                    "tag": "framework",
+                    "description":"A set of reusable PHP components and a PHP framework for web projects.",
+                    "image":"path/to/image.png"
+                },
+                "Laravel":{
+                    "tag": "framework",
+                    "description":"A web application framework with expressive, elegant syntax.",
+                    "image":"path/to/image.png"
+                },
+                "CodeIgniter":{
+                    "tag": "framework",
+                    "description":"A powerful PHP framework with a very small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications.",
+                    "image":"path/to/image.png"
+                },
+                "Laminas":{
+                    "tag": "framework",
+                    "description":"An open-source PHP framework for developing web applications and services.",
+                    "image":"path/to/image.png"
+                },
+                "CakePHP":{
+                    "tag": "framework",
+                    "description":"A rapid development framework for PHP that provides an extensible architecture for developing, maintaining, and deploying applications.",
+                    "image":"path/to/image.png"
+                },
+                "Yii":{
+                    "tag": "framework",
+                    "description":"A high-performance PHP framework best for developing web 2.0 applications.",
+                    "image":"path/to/image.png"
+                },
+                "Shopify":{
+                    "tag": "CMS e-commerce",
+                    "description":"A proprietary e-commerce platform for online stores and retail point-of-sale systems.",
+                    "image":"path/to/image.png"
+                },
+                "Magento":{
+                    "tag": "CMS e-commerce",
+                    "description":"An open-source e-commerce platform written in PHP.",
+                    "image":"path/to/image.png"
+                },
+                "PrestaShop":{
+                    "tag": "CMS e-commerce",
+                    "description":"An open-source e-commerce solution.",
+                    "image":"path/to/image.png"
+                    },
+                "WordPress":{
+                    "tag": "CMS",
+                    "description":"A free and open-source content management system (CMS) based on PHP and MySQL.",
+                    "image":"path/to/image.png"
+                },
+                "Drupal":{
+                    "tag": "CMS",
+                    "description":"An open-source content management framework written in PHP.",
+                    "image":"path/to/image.png"
+                }
+            },
+            "Languages résilients":{
+                "Cobol (MVS)":{
+                    "description":"A robust programming language primarily used in business, finance, and administrative systems for companies and governments.",
+                    "image":"path/to/image.png"
+                },
+                "RPG (AS400 Iseries)":{
+                    "description":"A high-level programming language used for business applications on IBM's midrange computer systems.",
+                    "image":"path/to/image.png"
+                }
+            },
+            "Ruby":{
+                "Rails":{
+                    "tag": "framework",
+                    "description":"A server-side web application framework written in Ruby under the MIT License.",
+                    "image":"path/to/image.png"
+                },
+                "Sinatra":{
+                    "tag": "framework",
+                    "description":"A DSL for quickly creating web applications in Ruby with minimal effort.",
+                    "image":"path/to/image.png"
+                },
+                "Ramaze":{
+                    "tag": "framework",
+                    "description":"A simple, modular, and lightweight web framework for Ruby.",
+                    "image":"path/to/image.png"
+                },
+                "Hanami":{
+                    "tag": "framework",
+                    "description":"A modern web framework for Ruby.",
+                    "image":"path/to/image.png"
+                },
+                "Roda":{
+                    "tag": "framework",
+                    "description":"A fast, lightweight, and modular web server interface for Ruby.",
+                    "image":"path/to/image.png"
+                },
+                "Padrino":{
+                    "tag": "framework",
+                    "description":"A full-stack web framework built upon the Sinatra web library.",
+                    "image":"path/to/image.png"
+                }
+            },
+            "Java":{
+                "Groovy":{
+                    "description":"A powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform aimed at improving developer productivity.",
+                    "image":"path/to/image.png"
+                },
+                "Jakarta":{
+                    "tag": "framework",
+                    "description":"A set of specifications that enables developers to write enterprise applications that are portable and scalable, and that integrate with legacy technologies.",
+                    "image":"path/to/image.png"
+                },
+                "Quarkus":{
+                    "tag": "framework",
+                    "description":"A Kubernetes-native Java framework tailored for GraalVM and OpenJDK HotSpot, crafted from the best of breed Java libraries and standards.",
+                    "image":"path/to/image.png"
+                },
+                "Micronaut":{
+                    "tag": "framework",
+                    "description":"A modern, JVM-based, full-stack framework for building modular, easily testable microservice and serverless applications.",
+                    "image":"path/to/image.png"
+                },
+                "Apacge Struts":{
+                    "tag": "framework",
+                    "description":"An open-source web application framework for developing Java EE web applications.",
+                    "image":"path/to/image.png"
+                },
+                "Play Framework":{
+                    "tag": "framework",
+                    "description":"A high-velocity web framework for Java and Scala.",
+                    "image":"path/to/image.png"
+                },
+                "JSF":{
+                    "tag": "framework",
+                    "description":"A framework that allows Java code to be compiled into JavaScript.",
+                    "image":"path/to/image.png"
+                },
+                "Java FX":{
+                    "tag": "framework",
+                    "description":"A platform for creating and delivering desktop applications with rich content.",
+                    "image":"path/to/image.png"
+                },
+                "Spring Boot":{
+                    "tag": "Spring framework",
+                    "description":"An open-source Java-based framework used to create a micro Service.",
+                    "image":"path/to/image.png"
+                },
+                "Spring MVC":{
+                    "tag": "Spring framework",
+                    "description":"A framework for building web applications and RESTful services.",
+                    "image":"path/to/image.png"
+                },
+                "Spring Security":{
+                    "tag": "Spring framework",
+                    "description":"A powerful and customizable authentication and access-control framework for Java applications.",
+                    "image":"path/to/image.png"
+                },
+                "Spring Data":{
+                    "tag": "Spring framework",
+                    "description":"A part of the larger Spring Framework that focuses on data access and manipulation.",
+                    "image":"path/to/image.png"
+                },
+                "Spring Cloud":{
+                    "tag": "Spring framework",
+                    "description":"A framework for building distributed systems and microservices.",
+                    "image":"path/to/image.png"
+                },
+                "Spring Batch":{
+                    "tag": "Spring framework",
+                    "description":"A framework for batch processing and large-scale data processing.",
+                    "image":"path/to/image.png"
+                },
+                "Spring Session":{
+                    "tag": "Spring framework",
+                    "description":"A framework for managing user sessions in web applications.",
+                    "image":"path/to/image.png"
+                }
+            },
+            "Golang":{
+                "Gin":{
+                    "description":"A web framework written in Go (Golang).",
+                    "image":"path/to/image.png"
+                },
+                "Echo":{
+                    "description":"A high performance, extensible, minimalist web framework for Go (Golang).",
+                    "image":"path/to/image.png"
+                },
+                "Beego":{
+                    "description":"An open-source, high-performance web framework for the Go programming language.",
+                    "image":"path/to/image.png"
+                },
+                "Fiber":{
+                    "description":"An Express-inspired web framework written in Go (Golang).",
+                    "image":"path/to/image.png"
+                },
+                "Buffalo":{
+                    "description":"A web framework for Go (Golang) that makes it easy to build web applications.",
+                    "image":"path/to/image.png"
+                }
+            },
+            "Node JS":{
+                "Sails JS":{
+                    "tag": "framework",
+                    "description":"A Model-View-Controller (MVC) framework for Node.js.",
+                    "image":"path/to/image.png"
+                },
+                "Express JS":{
+                    "tag": "framework",
+                    "description":"A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.",
+                    "image":"path/to/image.png"
+                },
+                "Nest JS":{
+                    "tag": "framework",
+                    "description":"A progressive Node.js framework for building efficient, reliable and scalable server-side applications.",
+                    "image":"path/to/image.png"
+                },
+                "Koa JS":{
+                    "tag": "framework",
+                    "description":"A new web framework designed by the team behind Express, which aims to be a smaller, more expressive, and more robust foundation for web applications and APIs.",
+                    "image":"path/to/image.png"
+                },
+                "Hapi JS":{
+                    "tag": "framework",
+                    "description":"A rich framework for building applications and services.",
+                    "image":"path/to/image.png"
+                },
+                "Loopback JS":{
+                    "tag": "framework",
+                    "description":"A highly-extensible, open-source Node.js framework that enables you to create dynamic end-to-end REST APIs with little or no coding.",
+                    "image":"path/to/image.png"
+                },
+                "Meteor JS":{
+                    "tag": "framework",
+                    "description":"A full-stack JavaScript platform for developing modern web and mobile applications.",
+                    "image":"path/to/image.png"
+                },
+                "Fastify JS":{
+                    "tag": "framework",
+                    "description":"A web framework highly focused on providing the best developer experience with the least overhead and a powerful plugin architecture.",
+                    "image":"path/to/image.png"
+                }
+            },
+            "C#":{
+                ".NET (.NET core)":{
+                    "tag":".net",
+                    "description":"A free, cross-platform, open source developer platform for building many different types of applications.",
+                    "image":"path/to/image.png"
+                },
+                "WPF":{
+                    "tag":".net",
+                    "description":"A UI framework for building visually compelling Windows desktop applications.",
+                    "image":"path/to/image.png"
+                },
+                "ASP.net":{
+                    "tag":".net",
+                    "description":"A framework for building web apps and services with .NET and C#.",
+                    "image":"path/to/image.png"
+                },
+                "Blazor":{
+                    "tag":".net",
+                    "description":"A framework for building interactive web UIs using C#.",
+                    "image":"path/to/image.png"
+                },
+                "Entity Fraamework Core":{
+                    "tag":".net",
+                    "description":"An object-relational mapper (ORM) that enables .NET developers to work with a database using .NET objects.",
+                    "image":"path/to/image.png"
+                },
+                ".Net MAUI":{
+                    "tag":".net",
+                    "description":"A framework for building cross-platform applications for Android, iOS, macOS, and Windows with a single codebase.",
+                    "image":"path/to/image.png"
+                },
+                "Dapper":{
+                    "tag":".net",
+                    "description":"A simple object mapper for .NET.",
+                    "image":"path/to/image.png"
+                }
+            },
+            "Scala":{
+                "Akka":{
+                    "tag": "framework",
+                    "description":"A toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM.",
+                    "image":"path/to/image.png"
+                },
+                "Play":{
+                    "tag": "framework",
+                    "description":"A high-velocity web framework for Java and Scala.",
+                    "image":"path/to/image.png"
+                },
+                "Apache Spark":{
+                    "tag": "framework",
+                    "description":"An open-source unified analytics engine for large-scale data processing.",
+                    "image":"path/to/image.png"
+                },
+                "http4s":{
+                    "tag": "framework",
+                    "description":"A minimal, idiomatic Scala interface for HTTP services.",
+                    "image":"path/to/image.png"
+                },
+                "ZIO":{
+                    "tag": "framework",
+                    "description":"A type-safe, composable, and asynchronous HTTP library for Scala.",
+                    "image":"path/to/image.png"
+                },
+                "Cats Effect":{
+                    "tag": "framework",
+                    "description":"A library for functional programming in Scala.",
+                    "image":"path/to/image.png"
+                },
+                "Finch":{
+                    "tag": "framework",
+                    "description":"A library for building composable HTTP services in Scala.",
+                    "image":"path/to/image.png"
+                }
+            },
+            "API/Webservices":{
+                ".net":{
+                    "description":"A protocol for building and consuming web services.",
+                    "image":"path/to/image.png"
+                }
+            },
+            "VB.NET":{
+                ".net":{
+                    "description":"A free, cross-platform, open source developer platform for building many different types of applications.",
+                    "image":"path/to/image.png"
+                }
+            }
+        },
+        "ORM":{
+            "Java":{
+                "Hibernate":{
+                    "description":"An object-relational mapping (ORM) tool for the Java programming language.",
+                    "image":"path/to/image.png"
+                },
+                "MyBatis":{
+                    "description":"A persistence framework that automates the mapping between SQL databases and objects in Java.",
+                    "image":"path/to/image.png"
+                }
+            },
+            "PHP":{
+                "Doctrine":{
+                    "description":"An object-relational mapper (ORM) for PHP that provides transparent persistence for PHP objects.",
+                    "image":"path/to/image.png"
+                },
+                "Eloquent ORM":{
+                    "description":"An object-relational mapper (ORM) included with the Laravel framework.",
+                    "image":"path/to/image.png"
+                }
+            },
+            "Microsoft.net":{
+                "Nhibernate":{
+                    "description":"A port of the Hibernate ORM framework for the .NET platform.",
+                    "image":"path/to/image.png"
+                },
+                "Dapper":{
+                    "description":"A simple object mapper for .NET.",
+                    "image":"path/to/image.png"
+                },
+                "Entity Framework":{
+                    "description":"An open-source object-relational mapper (ORM) for ADO.NET.",
+                    "image":"path/to/image.png"
+                }
+            }
+        }
+    },
+    "DEVOPS":{
+        "laC":{
+            "Terraform":{
+                "description":"An open-source infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services.",
+                "image":"path/to/image.png"
+            },
+            "Ansible":{
+                "description":"An open-source automation tool for configuration management, application deployment, and task automation.",
+                "image":"path/to/image.png"
+            },
+            "Puppet":{
+                "description":"An open-source software configuration management tool.",
+                "image":"path/to/image.png"
+            }
+        },
+        "Sécurié":{
+            "SonarQube":{
+                "description":"An open-source platform for continuous inspection of code quality.",
+                "image":"path/to/image.png"
+            }
+        },
+        "CI/CD":{
+            "Jenkins":{
+                "description":"An open-source automation server that enables developers to build, test, and deploy their software.",
+                "image":"path/to/image.png"
+            },
+            "GitLab CI/CD":{
+                "description":"A continuous integration and continuous deployment (CI/CD) tool built into GitLab.",
+                "image":"path/to/image.png"
+            },
+            "GitHub Actions":{
+                "description":"A CI/CD service that allows you to automate your build, test, and deployment pipeline.",
+                "image":"path/to/image.png"
+            },
+            "CircleCI":{
+                "description":"A CI/CD platform that automates the software development process.",
+                "image":"path/to/image.png"
+            }
+        },
+        "Monitoring":{
+            "Prometheus":{
+                "description":"An open-source systems monitoring and alerting toolkit.",
+                "image":"path/to/image.png"
+            },
+            "Grafana":{
+                "description":"An open-source platform for monitoring and observability.",
+                "image":"path/to/image.png"
+            },
+            "Dataadog":{
+                "description":"A monitoring and analytics platform for cloud-scale applications.",
+                "image":"path/to/image.png"
+            }
+        },
+        "Outil":{
+            "GitLab":{
+                "tag":"Git",
+                "description":"A web-based DevOps lifecycle tool that provides a Git repository manager.",
+                "image":"path/to/image.png"
+            },
+            "GitHub":{
+                "tag":"Git",
+                "description":"A web-based platform used for version control and collaborative software development.",
+                "image":"path/to/image.png"
+            },
+            "Bitbucket":{
+                "tag":"Git",
+                "description":"A web-based version control repository hosting service owned by Atlassian.",
+                "image":"path/to/image.png"
+            }
+        },
+        "Orcherstation et conteneurisation":{
+            "Docker":{
+                "description":"A platform for developing, shipping, and running applications in containers.",
+                "image":"path/to/image.png"
+            },
+            "Kubernetes":{
+                "description":"An open-source container orchestration platform for automating the deployment, scaling, and management of containerized applications.",
+                "image":"path/to/image.png"
+            }
+        }
+    },
+    "TEMPS RÉEL EMBARQUÉ":{
+       "Software : embarqué":{
+            "Language":{
+                "C":{
+                    "description":"A general-purpose programming language that is widely used for system and application software.",
+                    "image":"path/to/image.png"
                 },
                 "C++":{
-                    "Qt":{
-                        "description":"A free and open-source widget toolkit for creating graphical user interfaces as well as cross-platform applications.",
-                        "image":"path/to/image.png"
-                    },
-                    "wxWidgets":{
-                        "description":"A C++ library that lets developers create applications for Windows, macOS, Linux and other platforms with a single code base.",
-                        "image":"path/to/image.png"
-                    },
-                    "ImGUI":{
-                        "description":"A bloat-free graphical user interface library for C++.",
-                        "image":"path/to/image.png"
-                    },
-                    
+                    "description":"A general-purpose programming language that is widely used for system and application software.",
+                    "image":"path/to/image.png"
                 },
-                "Kotlin":{
-                    "Ktor":{
-                        "description":"A framework for building asynchronous servers and clients in connected systems using the powerful Kotlin programming language.",
-                        "image":"path/to/image.png"
-                    },
-                    "Micronaut":{
-                        "description":"A modern, JVM-based, full-stack framework for building modular, easily testable microservice and serverless applications.",
-                        "image":"path/to/image.png"
-
-                    },
-                    "Quarkus":{
-                        "description":"A Kubernetes-native Java framework tailored for GraalVM and OpenJDK HotSpot, crafted from the best of breed Java libraries and standards.",
-                        "image":"path/to/image.png"
-                    },
-                    "Spring Framework":{
-                        "description":"A powerful, feature-rich framework for building Java applications, including web applications and microservices.",
-                        "image":"path/to/image.png"
-                    },
-                
-                
-                "PHP":{
-                    "Framework":{
-                        "Symfony":{
-                            "description":"A set of reusable PHP components and a PHP framework for web projects.",
-                            "image":"path/to/image.png"
-                        },
-                        "Laravel":{
-                            "description":"A web application framework with expressive, elegant syntax.",
-                            "image":"path/to/image.png"
-                        },
-                        "CodeIgniter":{
-                            "description":"A powerful PHP framework with a very small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications.",
-                            "image":"path/to/image.png"
-
-                        },
-                        "Laminas":{
-                            "description":"An open-source PHP framework for developing web applications and services.",
-                            "image":"path/to/image.png"
-                        },
-                        "CakePHP":{
-                            "description":"A rapid development framework for PHP that provides an extensible architecture for developing, maintaining, and deploying applications.",
-                            "image":"path/to/image.png"
-                        },
-                        "CakePHP":{
-                            "description":"A rapid development framework for PHP that provides an extensible architecture for developing, maintaining, and deploying applications.",
-                            "image":"path/to/image.png"
-                        },
-                        "Yii":{
-                            "description":"A high-performance PHP framework best for developing web 2.0 applications.",
-                            "image":"path/to/image.png"
-                        },
-
-
-                    "CMS":{
-                        "CMS e-commerce":{
-                            "Shopify":{
-                                "description":"A proprietary e-commerce platform for online stores and retail point-of-sale systems.",
-                                "image":"path/to/image.png"
-                            },
-                            "Magento":{
-                                "description":"An open-source e-commerce platform written in PHP.",
-                                "image":"path/to/image.png"
-                            },
-                            "PrestaShop":{
-                                "description":"An open-source e-commerce solution.",
-                                "image":"path/to/image.png"
-                            }
-                         },
-
-                    "WordPress":{
-                        "description":"A free and open-source content management system (CMS) based on PHP and MySQL.",
-                        "image":"path/to/image.png"
-                    },
-                    "Drupal":{
-                        "description":"An open-source content management framework written in PHP.",
-                        "image":"path/to/image.png"
-                    },
-                         
-                               
-                
+                "Rust":{
+                    "description":"A systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety.",
+                    "image":"path/to/image.png"
+                },
+                "JAVA":{
+                    "description":"A high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.",
+                    "image":"path/to/image.png"
+                },
+                "ADA (Domaine aéro)":{
+                    "description":"A structured, statically typed, imperative, and object-oriented high-level computer programming language, extended from Pascal and other languages.",
+                    "image":"path/to/image.png"
+                }
+            },
+            "Outils":{
+                "jtag":{
+                    "description":"A standard for verifying designs and testing printed circuit boards after manufacture.",
+                    "image":"path/to/image.png"
+                },
+                "Wireshark (analyse réseau)":{
+                    "description":"A network protocol analyzer that lets you capture and interactively browse the traffic running on a computer network.",
+                    "image":"path/to/image.png"
+                },
+                "Valgrind":{
+                    "description":"An instrumentation framework for building dynamic analysis tools.",
+                    "image":"path/to/image.png"
+                },
+                "Make/Cmake":{
+                    "description":"Build automation tools designed to manage the build process of software projects.",
+                    "image":"path/to/image.png"
+                },
+                "GCC":{
+                    "tag":"compilateur",
+                    "description":"A compiler system produced by the GNU Project supporting various programming languages.",
+                    "image":"path/to/image.png"
+                },
+                "LLVM/Clang":{
+                    "tag":"compilateur",
+                    "description":"A collection of modular and reusable compiler and toolchain technologies.",
+                    "image":"path/to/image.png"
+                },
+                "GDB (debug)":{
+                    "tag":"deboggeur",
+                    "description":"A portable debugger that runs on many Unix-like systems and works for many programming languages.",
+                    "image":"path/to/image.png"
+                },
+                "Keil":{
+                    "tag":"IDE",
+                    "description":"A development environment for embedded systems.",
+                    "image":"path/to/image.png"
+                },
+                "IAR Embedded Workbench":{
+                    "tag":"IDE",
+                    "description":"A set of tools for developing and debugging embedded systems.",
+                    "image":"path/to/image.png"
+                },
+                "MPLAB":{
+                    "tag":"IDE",
+                    "description":"An integrated development environment for embedded applications.",
+                    "image":"path/to/image.png"
+                },
+                "Eclipse":{
+                    "tag":"IDE",
+                    "description":"An integrated development environment used in computer programming.",
+                    "image":"path/to/image.png"
+                },
+                "VS code":{
+                    "tag":"IDE",
+                    "description":"A source-code editor made by Microsoft for Windows, Linux and macOS.",
+                    "image":"path/to/image.png"
+                }
+            },
+            "Protocoles/bus":{
+                "Liaisons Séries: RS232,RS485":{
+                    "description":"A standard for serial communication transmission of data.",
+                    "image":"path/to/image.png"
+                },
+                "Wifi":{
+                    "description":"A family of wireless network protocols based on the IEEE 802.11 standards.",
+                    "image":"path/to/image.png"
+                },
+                "Bluetooth":{
+                    "description":"A wireless technology standard for exchanging data over short distances.",
+                    "image":"path/to/image.png"
+                },
+                "BLE (Bluetooth Low Energy)":{
+                    "description":"A wireless personal area network technology designed for novel applications in the healthcare, fitness, beacons, security, and home entertainment industries.",
+                    "image":"path/to/image.png"
+                },
+                "Zigbee":{
+                    "description":"A specification for a suite of high-level communication protocols using low-power digital radios.",
+                    "image":"path/to/image.png"
+                },
+                "GSM (4G,5GH ...)":{
+                    "description":"A standard developed to describe protocols for second-generation (2G) digital cellular networks.",
+                    "image":"path/to/image.png"
+                },
+                "MQTT (loT)":{
+                    "description":"A lightweight, publish-subscribe network protocol that transports messages between devices.",
+                    "image":"path/to/image.png"
+                },
+                "CAN (automobile)":{
+                    "description":"A robust vehicle bus standard designed to allow microcontrollers and devices to communicate with each other in applications without a host computer.",
+                    "image":"path/to/image.png"
+                },
+                "I2C":{
+                    "description":"A multi-master, multi-slave, packet switched, single-ended, serial computer bus.",
+                    "image":"path/to/image.png"
+                },
+                "Modbus":{
+                    "description":"A serial communications protocol published by Modicon in 1979 for use with its programmable logic controllers (PLCs).",
+                    "image":"path/to/image.png"
+                },
+                "Ethernet":{
+                    "description":"A family of computer networking technologies commonly used in local area networks (LAN), metropolitan area networks",
+                    "image":"path/to/image.png"
+                }
+            },
+            "OS & plate-formes":{
+                "RTLinux":{
+                    "description":"A real-time operating system (RTOS) based on the Linux kernel.",
+                    "image":"path/to/image.png"
+                },
+                "FreeRTOS":{
+                    "description":"An open-source real-time operating system for embedded devices.",
+                    "image":"path/to/image.png"
+                },
+                "µC/OS-II":{
+                    "description":"A portable, ROMable, scalable, preemptive real-time kernel for microcontrollers.",
+                    "image":"path/to/image.png"
+                },
+                "VxWorks":{
+                    "description":"A real-time operating system (RTOS) developed as proprietary software by Wind River Systems.",
+                    "image":"path/to/image.png"
+                },
+                "Xenomai":{
+                    "description":"A real-time development framework cooperating with the Linux kernel to provide a pervasive, interface-agnostic, hard real-time support to user-space applications.",
+                    "image":"path/to/image.png"
+                },
+                "Ecos":{
+                    "description":"An open-source real-time operating system for embedded systems.",
+                    "image":"path/to/image.png"
+                },
+                "Osek (automobile)":{
+                    "description":"A standard for real-time operating systems in automotive embedded systems.",
+                    "image":"path/to/image.png"
+                },
+                "QNX":{
+                    "description":"A commercial Unix-like real-time operating system, aimed primarily at the embedded systems market.",
+                    "image":"path/to/image.png"
+                },
+                "Zephyr RTOS (loT)":{
+                    "description":"A scalable real-time operating system (RTOS) supporting multiple hardware architectures.",
+                    "image":"path/to/image.png"
+                },
+                "Yocto":{
+                    "tag":"Linux embarqué",
+                    "description":"An open-source project that provides templates, tools, and methods to help create custom Linux-based systems for embedded products.",
+                    "image":"path/to/image.png"
+                },
+                "Buildroot":{
+                    "tag":"Linux embarqué",
+                    "description":"A simple, efficient and easy-to-use tool to generate embedded Linux systems through cross-compilation.",
+                    "image":"path/to/image.png"
+                }
+            }
+       },
+        "Hardware : électronique":{
+            "Outils":{
+                "Orcad":{
+                    "description":"A software tool used for electronic design automation (EDA).",
+                    "image":"path/to/image.png"
+                },
+                "Eagle":{
+                    "description":"A PCB design software that offers schematic capture, PCB layout, autorouter, and CAM features.",
+                    "image":"path/to/image.png"
+                },
+                "Kicad":{
+                    "description":"An open-source software suite for electronic design automation (EDA).",
+                    "image":"path/to/image.png"
+                },
+                "Pspice":{
+                    "description":"A SPICE analog circuit and digital logic simulation software.",
+                    "image":"path/to/image.png"
+                },
+                "LTSpice":{
+                    "description":"A high-performance SPICE simulator, schematic capture and waveform viewer with enhancements and models for easing the simulation of analog circuits.",
+                    "image":"path/to/image.png"
+                }
+            },
+            "Conception hardware":{
+                "Électronique analogique":{
+                    "description":"The branch of electronics that deals with continuously variable signals.",
+                    "image":"path/to/image.png"
+                },
+                "Électronique radio fréquences":{
+                    "description":"The study and application of electromagnetic waves with frequencies in the range of about 20 kHz to 300 GHz.",
+                    "image":"path/to/image.png"
+                },
+                "Électronique de puissance":{
+                    "description":"The branch of electrical engineering that deals with the conversion and control of electric power using electronic devices.",
+                    "image":"path/to/image.png"
+                },
+                "Language VHDL":{
+                    "tag":"composant programmable",
+                    "description":"A hardware description language used in electronic design automation to describe digital and mixed-signal systems.",
+                    "image":"path/to/image.png"
+                },
+                "Language Verilog":{
+                    "tag":"composant programmable",
+                    "description":"A hardware description language used to model electronic systems.",
+                    "image":"path/to/image.png"
+                }
+            }
+        }
+    },
+    "SYSTÈMES ET RÉSEAUX":{
+        "Virtualisation":{
+            "Microsoft HyperV":{
+                "description":"A native hypervisor that can create virtual machines on x86-64 systems running Windows.",
+                "image":"path/to/image.png"
+            },
+            "VMware Workstation Pro":{
+                "description":"A hosted hypervisor that runs on x64 versions of Windows and Linux operating systems.",
+                "image":"path/to/image.png"
+            },
+            "Oracle VMVirtualBox":{
+                "description":"A free and open-source hosted hypervisor for x86 virtualization, developed by Oracle Corporation.",
+                "image":"path/to/image.png"
+            },
+            "Citrix":{
+                "description":"A virtualization technology that allows users to access and use applications and desktops remotely.",
+                "image":"path/to/image.png"
+            },
+            "Nutanix":{
+                "description":"A cloud computing software company that provides hyper-converged infrastructure (HCI) solutions.",
+                "image":"path/to/image.png"
+            }
+        },
+        "Plateforme":{
+            "Unix":{
+                "Solaris":{
+                    "description":"A Unix operating system originally developed by Sun Microsystems.",
+                    "image":"path/to/image.png"
+                },
+                "AIX":{
+                    "description":"A series of proprietary Unix operating systems developed and sold by IBM.",
+                    "image":"path/to/image.png"
+                },
+                "SCO unix":{
+                    "description":"A Unix operating system developed by The SCO Group.",
+                    "image":"path/to/image.png"
+                },
+                "HP UNIX":{
+                    "description":"A proprietary implementation of the Unix operating system developed by Hewlett-Packard.",
+                    "image":"path/to/image.png"
+                }
+            },
+            "Linux":{
+                "Ubuntu":{
+                    "tag":"Distribution",
+                    "description":"A free and open-source Linux distribution based on Debian.",
+                    "image":"path/to/image.png"
+                },
+                "Debian":{
+                    "tag":"Distribution",
+                    "description":"A free and open-source Linux distribution that is known for its stability and security.",
+                    "image":"path/to/image.png"
+                },
+                "Redhat":{
+                    "tag":"Distribution",
+                    "description":"A commercial Linux distribution developed by Red Hat.",
+                    "image":"path/to/image.png"
+                },
+                "Linux Mint":{
+                    "tag":"Distribution",
+                    "description":"A free and open-source Linux distribution based on Ubuntu and Debian.",
+                    "image":"path/to/image.png"
+                },
+                "Arch Linux":{ 
+                    "tag":"Distribution",
+                    "description":"A lightweight and flexible Linux distribution that tries to Keep It Simple.",
+                    "image":"path/to/image.png"
+                },
+                "Fedora":{
+                    "tag":"Distribution",
+                    "description":"A free and open-source Linux distribution developed by the Fedora Project.",
+                    "image":"path/to/image.png"
+                }
+            },
+            "Windows":{
+                "Google Workplace":{
+                    "tag":"Outil collaboratif",
+                    "description":"A suite of cloud computing, productivity and collaboration tools, software and products developed by Google.",
+                    "image":"path/to/image.png"
+                },
+                "Exchange":{
+                    "tag":"Outil collaboratif",
+                    "description":"A mail server and calendaring server developed by Microsoft.",
+                    "image":"path/to/image.png"
+                },
+                "Microsoft 365":{
+                    "tag":"Outil collaboratif",
+                    "description":"A line of subscription services offered by Microsoft as part of the Microsoft Office product line.",
+                    "image":"path/to/image.png"
+                },
+                "HCL Note":{
+                    "tag":"Outil collaboratif",
+                    "description":"A collaborative client-server software platform formerly known as IBM Notes and Lotus Notes.",
+                    "image":"path/to/image.png"
+                },
+                "Talkspirit":{
+                    "tag":"Outil collaboratif",
+                    "description":"A collaborative platform that combines team communication and project management.",
+                    "image":"path/to/image.png"
+                },
+                "Slack":{
+                    "tag":"Outil collaboratif",
+                    "description":"A messaging app for teams that brings all communication together.",
+                    "image":"path/to/image.png"
+                },
+                "Confluence":{
+                    "tag":"Outil collaboratif",
+                    "description":"A collaboration software program developed and published by Australian software company Atlassian.",
+                    "image":"path/to/image.png"
+                },
+                "Windows 11":{
+                    "tag":"Poste de travail",
+                    "description":"A personal computer operating system developed by Microsoft as part of the Windows NT family of operating systems.",
+                    "image":"path/to/image.png"
+                },
+                "MECM":{
+                    "tag":"Poste de travail",
+                    "description":"A systems management software product developed by Microsoft for managing large groups of computers running Windows.",
+                    "image":"path/to/image.png"
+                },
+                "Active directory":{
+                    "tag":"Serveur",
+                    "description":"A directory service developed by Microsoft for Windows domain networks.",
+                    "image":"path/to/image.png"
+                },
+                "Windows Server 2025":{
+                    "tag":"Serveur",
+                    "description":"A group of server operating systems released by Microsoft.",
+                    "image":"path/to/image.png"
+                },
+                "Windows server 2022":{
+                    "tag":"Serveur",
+                    "description":"A server operating system developed by Microsoft as part of the Windows NT family of operating systems.",
+                    "image":"path/to/image.png"
+                },
+                "Windows Server 2019":{
+                    "tag":"Serveur",
+                    "description":"A server operating system developed by Microsoft as part of the Windows NT family of operating systems.",
+                    "image":"path/to/image.png"
+                }
+            },
+            "Cloud":{
+                "Oracle Cloud Infrastructure (OCI)":{
+                    "tag":"Cloud public",
+                    "description":"A cloud computing service offered by Oracle Corporation providing servers, storage, network, applications and services through a global network of Oracle Corporation managed data centers.",
+                    "image":"path/to/image.png"
+                },
+                "Ionos":{
+                    "tag":"Cloud public",
+                    "description":"A web hosting company and cloud service provider.",
+                    "image":"path/to/image.png"
+                },
+                "Scaleway":{
+                    "tag":"Cloud public",
+                    "description":"A European cloud service provider.",
+                    "image":"path/to/image.png"
+                },
+                "OVH Cloud":{
+                    "tag":"Cloud public",
+                    "description":"A global, hyper-scale cloud provider.",
+                    "image":"path/to/image.png"
+                },
+                "Microsoft Azure":{
+                    "tag":"Cloud public",
+                    "description":"A cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services through Microsoft-managed data centers.",
+                    "image":"path/to/image.png"
+                },
+                "Google Cloud Platform":{
+                    "tag":"Cloud public",
+                    "description":"A suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products.",
+                    "image":"path/to/image.png"
+                },
+                "AWS":{
+                    "tag":"Cloud public",
+                    "description":"A subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments.",
+                    "image":"path/to/image.png"
+                },
+                "IBM Cloud":{
+                    "tag":"Cloud public",
+                    "description":"A set of cloud computing services for business offered by the information technology company IBM.",
+                    "image":"path/to/image.png"
+                }
+            }
+        },
+        "Grands et moyens":{},
+        "systèmes":{
+            "AS400/Iseries":{
+                "description":"A family of midrange computers from IBM, designed for small and medium-sized businesses.",
+                "image":"path/to/image.png"
+            },
+            "MVS/OS390":{
+                "description":"A family of IBM mainframe operating systems.",
+                "image":"path/to/image.png"
+            }
+        },
+        "Scripting automatisation":{
+            "python":{
+                "description":"A high-level, interpreted programming language known for its readability and versatility.",
+                "image":"path/to/image.png"
+            },
+            "PowerShell":{
+                "description":"A task automation and configuration management framework from Microsoft, consisting of a command-line shell and associated scripting language.",
+                "image":"path/to/image.png"
+            },
+            "Bash / Shell":{
+                "description":"A Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell.",
+                "image":"path/to/image.png"
+            },
+            "Perl":{
+                "description":"A high-level, general-purpose, interpreted, dynamic programming language.",
+                "image":"path/to/image.png"
+            },
+            "Groovy":{
+                "description":"An object-oriented programming language for the Java platform.",
+                "image":"path/to/image.png"
+            },
+            "R":{
+                "description":"A programming language and free software environment for statistical computing and graphics supported by the R Foundation for Statistical Computing.",
+                "image":"path/to/image.png"
+            }
+        },
+        "Réseaux":{
+            "Checkpoint":{
+                "tag":"Firewall",
+                "description":"A multinational provider of software and combined hardware and software products for IT security, including network security, endpoint security, cloud security, mobile security, data security and management.",
+                "image":"path/to/image.png"
+            },
+            "Palo Alto":{
+                "tag":"Firewall",
+                "description":"A multinational cybersecurity company that provides various products and services to secure the digital way of life.",
+                "image":"path/to/image.png"
+            },
+            "Stormsheild":{
+                "tag":"Firewall",
+                "description":"A global provider of cyber security solutions.",
+                "image":"path/to/image.png"
+            },
+            "Fortinet":{
+                "tag":"Firewall",
+                "description":"A multinational corporation that develops and sells cybersecurity solutions, such as firewalls, antivirus software, intrusion prevention systems, and endpoint security components.",
+                "image":"path/to/image.png"
+            },
+            "Cisco Firewall":{
+                "tag":"Firewall",
+                "description":"A multinational technology conglomerate that develops, manufactures, and sells networking hardware, software, telecommunications equipment and other high-technology services and products.",
+                "image":"path/to/image.png"
+            },
+            "Firewall":{
+                "tag":"Réseaux",
+                "description":"A network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.",
+                "image":"path/to/image.png"
+            },
+            "Switch":{
+                "tag":"Réseaux",
+                "description":"A networking device that connects devices together on a computer network by using packet switching to receive, process, and forward data to the destination device.",
+                "image":"path/to/image.png"
+            },
+            "Routeurs":{
+                "tag":"Réseaux",
+                "description":"A networking device that forwards data packets between computer networks.",
+                "image":"path/to/image.png"
+            },
+            "Cisco":{
+                "tag":"Réseaux",
+                "description":"A multinational technology conglomerate that develops, manufactures, and sells networking hardware, software, telecommunications equipment and other high-technology services and products.",
+                "image":"path/to/image.png"
+            },
+            "Open VPN":{
+                "tag":"VPN",
+                "description":"An open-source software application that implements virtual private network (VPN) techniques for creating secure point-to-point or site-to-site connections.",
+                "image":"path/to/image.png"
+            }
+        }
+    },
+    "GESTION DE PROJETS":{
+        "Outils":{
+            "Monday":{
+                "description":"A work operating system that powers teams to run processes, projects, and workflows with confidence.",
+                "image":"path/to/image.png"
+            },
+            "Asana":{
+                "description":"A web and mobile-based project management tool designed to help teams organize, track, and manage their work.",
+                "image":"path/to/image.png"
+            },
+            "Trello":{
+                "description":"A web-based, kanban-style, list-making application and is developed by Atlassian.",
+                "image":"path/to/image.png"
+            },
+            "Redmine":{
+                "description":"An open-source project management and issue tracking system written in Ruby on Rails.",
+                "image":"path/to/image.png"
+            },
+            "Gantt":{
+                "description":"A type of bar chart that illustrates a project schedule and shows the dependency relationships between activities and the current schedule status.",
+                "image":"path/to/image.png"
+            },
+            "PickUp":{
+                "description":"A project management tool for organizing and tracking team tasks and workflows.",
+                "image":"path/to/image.png"
+            },
+            "MS Project":{
+                "description":"A project management software product developed by Microsoft for developing a schedule, assigning resources to tasks, tracking progress, managing budgets, and analyzing workloads.",
+                "image":"path/to/image.png"
+            },
+            "Jira":{
+                "description":"An issue and project tracking software developed by Atlassian that allows teams to plan, track, and manage their work.",
+                "image":"path/to/image.png"
+            },
+            "Zoho Projects":{
+                "description":"A cloud-based project management and collaboration software that helps teams organize projects and collaborate on tasks.",
+                "image":"path/to/image.png"
+            },
+            "Basecamp":{
+                "description":"A web-based project management and team collaboration tool developed by Basecamp.",
+                "image":"path/to/image.png"
+            },
+            "Notion":{
+                "description":"An all-in-one workspace for note-taking, project management, task management, and database management.",
+                "image":"path/to/image.png"
+            },
+            "Airtable":{
+                "description":"A cloud collaboration service for creating, discovering, and managing information in spreadsheet-database hybrids.",
+                "image":"path/to/image.png"
+            }
+        },
+        "Méthodes":{
+            "Cycle en V":{
+                "description":"A sequential design process often used in software development processes, in which progress is seen as flowing steadily downwards through phases such as Conception, Initiation, Analysis, Design, Construction, Testing, Production/Implementation, and Maintenance.",
+                "image":"path/to/image.png"
+            },
+            "Cascade":{
+                "description":"A linear and sequential approach to software development that consists of a series of distinct phases, including requirements gathering, design, implementation, testing, deployment, and maintenance.",
+                "image":"path/to/image.png"
+            },
+            "Prince2 ®":{
+                "description":"A process-based method for effective project management, providing a structured approach to managing projects of all sizes and types.",
+                "image":"path/to/image.png"
+            },
+            "XP":{
+                "tag":"Agile",
+                "description":"A software development methodology that emphasizes customer satisfaction, teamwork, and continuous improvement through frequent releases of small, incremental changes to the software.",
+                "image":"path/to/image.png"
+            },
+            "SAFe":{
+                "tag":"Agile",
+                "description":"A set of organization and workflow patterns intended to guide enterprises in scaling lean and agile practices.",
+                "image":"path/to/image.png"
+            },
+            "Crystal":{
+                "tag":"Agile",
+                "description":"A family of human-powered, adaptive software development methodologies.",
+                "image":"path/to/image.png"
+            },
+            "FDD":{
+                "tag":"Agile",
+                "description":"A client-centric, architecture-centric, and pragmatic software process.",
+                "image":"path/to/image.png"
+            },
+            "Scrumban":{
+                "tag":"Agile Scrum",
+                "description":"A hybrid agile management framework that combines the structured framework of Scrum with the flexibility and visualization of Kanban.",
+                "image":"path/to/image.png"
+            },
+            "LEAN":{
+                "tag":"Agile Scrum",
+                "description":"A methodology that focuses on minimizing waste within manufacturing systems while simultaneously maximizing productivity.",
+                "image":"path/to/image.png"
+            }
+        }
+    },
+    "DATA / IA":{
+        "Data engineering":{
+            "Spark":{
+                "description":"An open-source unified analytics engine for large-scale data processing with built-in modules for streaming, SQL, machine learning and graph processing.",
+                "image":"path/to/image.png"
+            },
+            "Kafka":{
+                "description":"An open-source distributed event streaming platform capable of handling trillions of events a day.",
+                "image":"path/to/image.png"
+            },
+            "Apache Flink":{
+                "description":"A open-source stream processing framework for distributed, high-performing, always-on, and fault-tolerant data streaming applications.",
+                "image":"path/to/image.png"
+            },
+            "Airflow":{
+                "description":"An open-source workflow management platform for authoring, scheduling, and monitoring data pipelines.",
+                "image":"path/to/image.png"
+            },
+            "Dask":{
+                "description":"A flexible library for parallel computing in Python that integrates with existing Python libraries.",
+                "image":"path/to/image.png"
+            },
+            "Presto / Trino":{
+                "description":"A distributed SQL query engine designed to query large data sets distributed over one or more heterogeneous data sources.",
+                "image":"path/to/image.png"
+            },
+            "Apache Pulsar":{
+                "description":"A distributed pub-sub messaging platform with a very flexible message routing model, designed for high-performance and low-latency messaging.",
+                "image":"path/to/image.png"
+            },
+            "RabbitMQ":{
+                "description":"An open-source message-broker software that originally implements the Advanced Message Queuing Protocol (AMQP).",
+                "image":"path/to/image.png"
+            },
+            "RedPanda":{
+                "description":"A streaming data platform that offers a Kafka-compatible API, with high throughput and low latency.",
+                "image":"path/to/image.png"
+            }
+        },
+        "Analyse & visualisation":{
+            "Palantir": {
+                "description": "A data integration and analysis platform that helps organizations integrate, manage, and analyze large volumes of data from multiple sources.",
+                "image": "path/to/image.png"
+            },
+            "Cirro": {
+                "description": "A cloud-native data integration and analytics platform designed for modern data teams.",
+                "image": "path/to/image.png"
+            },
+            "MetaMarkets": {
+                "description": "An analytics platform for real-time data analysis and visualization.",
+                "image": "path/to/image.png"
+            },
+            "Altair Panopticon": {
+                "description": "An advanced visual analytics platform for real-time data analysis and decision-making.",
+                "image": "path/to/image.png"
+            },
+            "Datameer": {
+                "description": "A data analytics and preparation platform that simplifies big data analytics and machine learning.",
+                "image": "path/to/image.png"
+            },
+            "Tibco Spotfire": {
+                "description": "An analytics and visualization platform that enables users to analyze and visualize complex data.",
+                "image": "path/to/image.png"
+            },
+            "Rapidminer": {
+                "description": "A data science platform that provides tools for data preparation, machine learning, and predictive analytics.",
+                "image": "path/to/image.png"
+            },
+            "Zoho Analytics": {
+                "description": "A cloud-based business intelligence and data analytics tool for creating reports and dashboards.",
+                "image": "path/to/image.png"
+            },
+            "Looker": {
+                "description": "A data visualization and business intelligence platform that helps organizations explore and analyze data.",
+                "image": "path/to/image.png"
+            },
+            "Domo": {
+                "description": "A cloud-based business intelligence platform for data integration, visualization, and collaboration.",
+                "image": "path/to/image.png"
+            },
+            "Sisense": {
+                "description": "An analytics platform that enables organizations to build and deploy analytics applications.",
+                "image": "path/to/image.png"
+            }
+        },
+        "Progiciels d'informatiques":{
+            "Traitement de données / modélisation mathématique":{
+                "Python (Numpy, Pandas, SciPy, Scikit-learn": {
+                    "description": "A high-level programming language known for its readability and versatility.",
+                    "image": "path/to/image.png"
+                },
+                "Julius AI": {
+                    "description": "An AI-powered tool for various applications.",
+                    "image": "path/to/image.png"
+                },
+                "MathGPTPro": {
+                    "description": "An advanced AI tool for mathematical problem-solving.",
+                    "image": "path/to/image.png"
+                },
+                "Mathway / MathPapa": {
+                    "description": "Online calculators and problem solvers for various math topics.",
+                    "image": "path/to/image.png"
+                },
+                "Maple": {
+                    "description": "A symbolic and numeric computing environment.",
+                    "image": "path/to/image.png"
+                },
+                "R": {
+                    "description": "A programming language and free software environment for statistical computing and graphics.",
+                    "image": "path/to/image.png"
+                },
+                "Excel": {
+                    "description": "A spreadsheet program developed by Microsoft.",
+                    "image": "path/to/image.png"
+                },
+                "Alteryx": {
+                    "description": "A data analytics platform that allows users to prepare, blend, and analyze data.",
+                    "image": "path/to/image.png"
+                },
+                "Power Query": {
+                    "description": "A data connection technology that enables you to discover, connect, combine, and refine data across a wide variety of sources.",
+                    "image": "path/to/image.png"
+                },
+                "SAS": {
+                    "description": "A software suite developed by SAS Institute for advanced analytics, business intelligence, data management, and predictive analytics.",
+                    "image": "path/to/image.png"
+                },
+                "Sphinx": {
+                    "description": "A documentation generator for Python projects.",
+                    "image": "path/to/image.png"
+                },
+                "Dataiku": {
+                    "description": "A collaborative data science platform that enables teams to build and deploy data projects.",
+                    "image": "path/to/image.png"
+                }
+            },
+            "Data Platform":{
+                "Snowflake": {
+                    "description": "A cloud-based data warehousing platform that provides data storage, processing, and analytic solutions.",
+                    "image": "path/to/image.png"
+                },
+                "Databricks": {
+                    "description": "A cloud-based platform for big data analytics and machine learning, built on Apache Spark.",
+                    "image": "path/to/image.png"
+                },
+                "Azure Fabric": {
+                    "description": "A cloud-based platform for building and managing applications and services in Microsoft Azure.",
+                    "image": "path/to/image.png"
+                },
+                "BigQuery": {
+                    "description": "A fully-managed, serverless data warehouse that enables scalable analysis over large datasets.",
+                    "image": "path/to/image.png"
+                },
+                "Teradata": {
+                    "description": "A data warehousing solution that provides analytics and data management capabilities.",
+                    "image": "path/to/image.png"
+                }
+            },
+            "Alimentation / ETL":{
+                "Talend/Talaxie":{
+                    "description":"An open-source data integration platform that provides tools for data integration, data quality, and data management.",
+                    "image":"path/to/image.png"
+                },
+                "Informatica":{
+                    "description":"A data integration tool that provides a platform for data integration, data quality, and data management.",
+                    "image":"path/to/image.png"
+                },
+                "DBT":{
+                    "description":"A data transformation tool that enables data analysts and engineers to transform data in their warehouse more effectively.",
+                    "image":"path/to/image.png"
+                },
+                "Airbyte":{
+                    "description":"An open-source data integration platform that provides tools for data integration, data quality, and data management.",
+                    "image":"path/to/image.png"
+                },
+                "IBM DataStage":{
+                    "description":"A data integration tool that provides a platform for data integration, data quality, and data management.",
+                    "image":"path/to/image.png"
+                },
+                "Pentaho Data Integration":{
+                    "description":"A data integration tool that provides a platform for data integration, data quality, and data management.",
+                    "image":"path/to/image.png"
+                },
+                "Fivetran":{
+                    "description":"A data integration tool that provides a platform for data integration, data quality, and data management.",
+                    "image":"path/to/image.png"
+                },
+                "Stitch": {
+                    "description": "A cloud-based ETL service that helps you move data from various sources to your data warehouse.",
+                    "image": "path/to/image.png"
+                },
+                "Integrate.io": {
+                    "description": "A cloud-based data integration platform that enables users to connect, transform, and analyze data.",
+                    "image": "path/to/image.png"
+                },
+                "Hevo Data": {
+                    "description": "A no-code data integration platform that helps businesses move data from various sources to data warehouses.",
+                    "image": "path/to/image.png"
+                },
+                "Matillion": {
+                    "description": "A cloud-native ETL solution that helps you transform data in your cloud data warehouse.",
+                    "image": "path/to/image.png"
+                },
+                "AWS Glue": {
+                    "description": "A fully managed ETL service that makes it easy to prepare and load data for analytics.",
+                    "image": "path/to/image.png"
+                },
+                "Google Cloud Data Fusion": {
+                    "description": "A fully managed, cloud-native data integration service for quickly building and managing data pipelines.",
+                    "image": "path/to/image.png"
+                },
+                "Azure Data Factory": {
+                    "description": "A cloud-based data integration service that allows you to create data-driven workflows for orchestrating data movement and transformation.",
+                    "image": "path/to/image.png"
+                },
+                "Cloudera DataFlow": {
+                    "description": "A platform for building and managing data flows across hybrid and multi-cloud environments.",
+                    "image": "path/to/image.png"
+                }
+            }
+        },
+        "BI":{
+            "SAP Business Objects (SAP BI)": {
+                "description": "A suite of front-end applications that enable business users to view, sort and analyze business intelligence data and create reports and dashboards.",
+                "image": "path/to/image.png"
+            },
+            "Birst": {
+                "description": "A cloud-native business intelligence and analytics platform providing enterprise data modeling, visualization, and embedded analytics.",
+                "image": "path/to/image.png"
+            },
+            "Microsoft Power BI": {
+                "description": "A suite of business analytics tools to analyze data and share insights through interactive dashboards and reports.",
+                "image": "path/to/image.png"
+            },
+            "Tableau": {
+                "description": "A visual analytics platform that helps people see and understand data by creating interactive, shareable dashboards and visualizations.",
+                "image": "path/to/image.png"
+            },
+            "Qlik Sense": {
+                "description": "A self-service data analytics and visualization platform that enables interactive dashboards, associative data exploration, and guided analytics.",
+                "image": "path/to/image.png"
+            },
+            "MyReport": {
+                "description": "A reporting and analytics solution for creating interactive reports and dashboards to support business decision-making.",
+                "image": "path/to/image.png"
+            },
+            "Microstrategy": {
+                "description": "An enterprise analytics platform offering reporting, dashboards, mobile analytics, and advanced data discovery capabilities.",
+                "image": "path/to/image.png"
+            },
+            "GoodData": {
+                "description": "A cloud-native analytics platform for embedded BI, dashboards, and operational analytics at scale.",
+                "image": "path/to/image.png"
+            },
+            "Pentaho": {
+                "description": "A data integration and business analytics platform providing ETL, data preparation, reporting, and interactive visualizations.",
+                "image": "path/to/image.png"
+            },
+            "SAS": {
+                "description": "A comprehensive analytics suite for statistical analysis, advanced analytics, business intelligence, and predictive modeling.",
+                "image": "path/to/image.png"
+            },
+            "Cognos": {
+                "description": "IBM Cognos Analytics — an enterprise BI platform for reporting, analysis, dashboarding and performance management.",
+                "image": "path/to/image.png"
+            }
+        }
+    },
+    "OUTILS DE DEV":{
+        
+    }
+}
+               
