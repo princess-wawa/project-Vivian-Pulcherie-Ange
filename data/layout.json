@@ -1,5 +1,6 @@
 {
     "DEV FROND END":{
+        "couleur":"#4b5fac",
         "dev":{
             "javascript":{
                 "angular":{
@@ -142,6 +143,7 @@
         }
     },
     "DEV BACK END":{
+        "couleur":"#39bb93",
         "Serveur Web":{
             "Nginx":{
                 "description":"A high-performance web server and reverse proxy server.",
@@ -657,6 +659,7 @@
         }
     },
     "DEVOPS":{
+        "couleur":"#222528",
         "laC":{
             "Terraform":{
                 "description":"An open-source infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services.",
@@ -738,6 +741,7 @@
         }
     },
     "TEMPS RÉEL EMBARQUÉ":{
+       "couleur":"#801045",
        "Software : embarqué":{
             "Language":{
                 "C":{
@@ -964,6 +968,7 @@
         }
     },
     "SYSTÈMES ET RÉSEAUX":{
+        "couleur":"#93b7d9",
         "Virtualisation":{
             "Microsoft HyperV":{
                 "description":"A native hypervisor that can create virtual machines on x86-64 systems running Windows.",
@@ -1238,6 +1243,7 @@
         }
     },
     "GESTION DE PROJETS":{
+        "couleur":"#c92c68",
         "Outils":{
             "Monday":{
                 "description":"A work operating system that powers teams to run processes, projects, and workflows with confidence.",
@@ -1334,6 +1340,7 @@
         }
     },
     "DATA / IA":{
+        "couleur":"#bac445",
         "Data engineering":{
             "Spark":{
                 "description":"An open-source unified analytics engine for large-scale data processing with built-in modules for streaming, SQL, machine learning and graph processing.",
@@ -1602,6 +1609,7 @@
         }
     },
     "OUTILS DE DEV":{
+        "couleur":"#bdabd3"
         
     }
 }
