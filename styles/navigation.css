@@ -1,24 +1,24 @@
-.tree-nav {
+.navigation-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 0 5% 0 5%;
 }
 
-.tree-nav .dropbtn {
+.navigation-container .navigation-button {
     padding: .4rem .8rem;
     cursor: pointer;
-    border: none;
+    border-width: 3px;
     background: none;
     border-radius: 10px;
 }
 
-.tree-nav .dropbtn:hover,
-.tree-nav .dropbtn:focus {
+.navigation-container .navigation-button:hover,
+.navigation-container .navigation-button:focus {
     background-color: #f0f0f0;
 }
 
-.tree-nav .dropdown {
+.navigation-container .dropdown {
     position: relative;
     min-width: max-content;
     white-space: nowrap;
@@ -26,7 +26,7 @@
     justify-content: center;
 }
 
-.tree-nav .dropdown-content {
+.navigation-container .dropdown-content {
     display: none;
     position: absolute;
     top: 200%;
@@ -38,7 +38,7 @@
     z-index: 10;
 }
 
-.tree-nav .dropdown-content a {
+.navigation-container .dropdown-content a {
     display: block;
     padding: .45rem .75rem;
     text-decoration: none;
@@ -46,11 +46,11 @@
     white-space: nowrap;
 }
 
-.tree-nav .dropdown.open .dropdown-content,
-.tree-nav .dropdown:focus-within .dropdown-content {
+.navigation-container .dropdown.open .dropdown-content,
+.navigation-container .dropdown:focus-within .dropdown-content {
     display: block;
 }
 
-.tree-nav .dropdown-content a:hover {
+.navigation-container .dropdown-content a:hover {
     background: #f0f0f0;
 }
