@@ -5,7 +5,7 @@
     <title>Carte des technologies</title>
     <link rel="stylesheet" href="styles/navigation.css" />
     <link rel="stylesheet" href="styles/styles.css" />
-    <link rel="stylesheet" href="styles/stations.css">
+    <link rel="stylesheet" href="styles/info-panel.css">
 </head>
 <body>
     <header>
@@ -37,20 +37,10 @@
             </div>  
             <div class="dropdown">
                 <button class="dropbtn" aria-haspopup="true" aria-expanded="false">Dev front end</button>
-                <div class="dropdown-content" role="menu" aria-label="dev mobile submenu">
-                    <a href="#">dev</a>
-                    <a href="#">design</a>
                 </div>
             </div>  
-            <div class="dropdown">
-                <button class="dropbtn" aria-haspopup="true" aria-expanded="false">Dev back end</button>
-                <div class="dropdown-content" role="menu" aria-label="dev mobile submenu">
-                    <a href="#">Serveur web</a>
-                    <a href="#">Serveur d'application linux</a>
-                    <a href="#">api/webservices</a>
-                    <a href="#">dev</a>
-                    <a href="#">ORM</a>
-                </div>
+            <div class="dropdown" haspopup="true" aria-expanded="false">Dev back end</button>
+
             </div>  
             <div class="dropdown">
                 <button class="dropbtn" aria-haspopup="true" aria-expanded="false">outils de dev</button>
@@ -81,29 +71,34 @@
 
 
 <main>
-        <section id="tech-list"></section>
-        <div class="présentation">
-                <h2 class="carte_branche_principale">Dev</h2>
-                <button>Javascript</button>
-                <button>CSS</button>
-                <button>HTML</button>
-                <button>JAVA</button>
-                <button>C#</button>
+    <section id="tech-list">
+        <div class="presentation">
+            <h2 class="carte_branche_principale">Dev</h2>
+            <button>Javascript</button>
+            <button>CSS</button>
+            <button>HTML</button>
+            <button>JAVA</button>
+            <button>C#</button>
 
-                <div class="présentation2">
+            <div class="presentation2">
                 <h2 class="carte_branche_principale">Design</h2>
                 <button>UX/UI Designer</button>
             </div>
-            </div>
+        </div>
         <div class="carte">
-            <div class="div_présentation">
+            <div class="carte-partie-haute">
                 <img src="data/img/angular.png" alt="photo d'angular">
-                <h2 class="div_présentation_texte">Aangular</h2>
+                <div class="carte-titre-container">
+                    <span class="tag">Framework</span>
+                    <h2 class="div_présentation_texte">Aangular</h2>
+                </div>
             </div>
             <div class="div_description">
-                <p>Angular(également appelé Angular 2+ pour le distinguer de son prédécesseur AngularJS) est un framework pour clients, open source, basé sur TypeScript et codirigé par l'équipe du projet « Angular » chez Google ainsi que par une communauté de particuliers et de sociétés. Angular est une réécriture complète d'AngularJS. Il permet la création d’applications Web et plus particulièrement d'applications Web monopages : des applications Web accessibles via une page Web unique qui permet de fluidifier l’expérience utilisateur et d’éviter les chargements de pages à chaque nouvelle action. Le framework est basé sur une architecture du type MVC et permet donc de séparer les données, le visuel et les actions pour une meilleure gestion des responsabilités. Selon l'enquête Stack Overflow auprès des développeurs, Angular est l'un des frameworks web les plus utilisés.</p>
+                <p>Angular est un framework pour clients, open source, basé sur TypeScript. Il permet la création d’applications Web et plus particulièrement d'applications Web monopages : des applications Web accessibles via une page Web unique qui permet de fluidifier l’expérience utilisateur et d’éviter les chargements de pages à chaque nouvelle action. Le framework est basé sur une architecture du type MVC et permet donc de séparer les données, le visuel et les actions pour une meilleure gestion des responsabilités.</p>
             </div>
         </div>
+    </section>
+        
     </main>
      <script src="scripts/tree.js" defer></script>
 </body>

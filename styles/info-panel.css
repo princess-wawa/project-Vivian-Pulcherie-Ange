@@ -1,0 +1,44 @@
+#tech-list{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.presentation{
+    display:flex;
+    justify-content: flex-start;
+    zoom: 1.2;
+    flex-direction: column;
+}
+
+.presentation button{
+   flex-direction: column;
+}
+
+.carte{
+    width: 300px;
+    border: 1px black solid;
+    border-radius: 20px;
+}
+
+.carte-partie-haute{
+    background-color: blue;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carte-partie-haute img{
+    width:100px;
+}
+
+.carte-titre-container{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: left;
+    margin-left: 10%;
+}
