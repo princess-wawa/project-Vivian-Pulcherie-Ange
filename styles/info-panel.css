@@ -1,28 +1,91 @@
+:root{
+    --current-color:blue;
+}
+
+
 #tech-list{
     display: flex;
     flex-direction: row;
+    border:2px solid var(--current-color);
+    border-radius: 2vh;
+    font-family: Paralucent,sans-serif;
 }
 
-
-.presentation{
+.sections-container{
     display:flex;
     justify-content: flex-start;
-    zoom: 1.2;
+    flex-direction: column;
+    padding: 1%;
+    border-right: 2px solid var(--current-color);
+    gap: 1%;
+}
+
+.section {
+    border: 2px solid var(--current-color);
+    border-radius: 12px;
+    display: flex;
     flex-direction: column;
 }
 
-.presentation button{
-   flex-direction: column;
+.section button {
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    font-size: 16px;
+}
+
+.button-section-principale-inactif {
+    background-color: var(--current-color);
+    color: white;
+    border-bottom: 2px solid var(--current-color) !important;
+    margin-bottom: .5%;
+}
+
+.button-section-principale-actif:hover {
+    background-color: transparent;
+    color: var(--current-color);
+}
+
+.button-sous-sections {
+    background-color: transparent;
+    color: var(--current-color);
+}
+
+.button-sous-sections:hover {
+    background-color: var(--current-color);
+    color: white;
+}
+
+
+.section button:first-child{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.section button:last-child{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+
+.cartes-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 80vh;
+    overflow: scroll;
 }
 
 .carte{
+    margin: 2%;
     width: 300px;
     border: 1px black solid;
     border-radius: 20px;
 }
 
 .carte-partie-haute{
-    background-color: blue;
+    background-color: var(--current-color);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     display: flex;
