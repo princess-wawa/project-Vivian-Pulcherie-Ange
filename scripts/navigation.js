@@ -16,10 +16,14 @@ async function loadLayoutData() {
         // rajoute le nom du boutton
         newbtn.textContent = key;
         // rajoute la couleur du boutton
-        newbtn.style.borderColor = valeurs["couleur"];
+        const couleur = valeurs["couleur"]
+        newbtn.style.borderColor = couleur;
+        newbtn.style.backgroundColor = couleur;
+        newbtn.style.color = couleur;
 
         newbtn.addEventListener('click', () => {
-                
+            console.log(couleur)
+            document.documentElement.style.setProperty('--current-color', couleur);
         });
         buttonContainer.appendChild(newbtn);
     }
