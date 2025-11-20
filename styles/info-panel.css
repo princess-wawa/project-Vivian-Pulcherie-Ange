@@ -12,6 +12,8 @@
 }
 
 .sections-container{
+    flex-grow: 0;
+    flex-shrink: 0;
     display:flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -71,14 +73,17 @@
 
 
 .cartes-container{
+    flex-grow: 0;
+    padding: 20px;
+    justify-content: space-between;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     height: 80vh;
     overflow: scroll;
 }
 
 .carte{
+    flex: 0 0 auto;
     margin: 2%;
     width: 300px;
     border: 1px black solid;
