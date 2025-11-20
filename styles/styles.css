@@ -21,10 +21,49 @@ h1{
 }
 
 .searchbar {
+    position: relative;
     width: 20%;
     text-align: right;
 }
 
 .searchbar input{
     width: 100%;
+}
+
+.searchbar button{
+    display:flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+}
+
+.resultat{
+    position: absolute;
+    margin-top: 4px;
+    top: 100%;
+    left:0;
+    width:100%;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    background-color: #fff;
+    z-index: 100;
+}
+
+.resultat div {
+    padding: 4px 8px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+}
+
+.resultat div:hover{
+    background-color: #f0f0f0;
+}
+
+.carte.active{
+    background-color: #4b5fac;
+    color:#fff;
+    transition: 0.3s;
 }
