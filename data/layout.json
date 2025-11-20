@@ -108,8 +108,10 @@
                 }
             },
             "elm":{
-                "description":"A functional language that compiles to JavaScript.",
-                "image":"path/to/image.png"
+                "elm":{
+                    "description":"A functional language that compiles to JavaScript.",
+                    "image":"path/to/image.png"
+                }
             }
         },
         "design":{
