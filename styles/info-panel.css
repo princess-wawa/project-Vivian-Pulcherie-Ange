@@ -35,7 +35,8 @@
     font-size: 16px;
 }
 
-.button-section-principale-inactif {
+.button-section-principale-inactif,
+.button-section-principale-actif {
     background-color: var(--current-color);
     color: white;
     border-bottom: 2px solid var(--current-color) !important;
