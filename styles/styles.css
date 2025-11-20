@@ -65,5 +65,5 @@ h1{
 .carte.active{
     background-color: #4b5fac;
     color:#fff;
-    transition: 0.3s;
+    transition: 0.2s;
 }
