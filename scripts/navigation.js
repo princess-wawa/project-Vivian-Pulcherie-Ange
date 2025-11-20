@@ -114,6 +114,32 @@ function showcategory(sections) {
 };
 
 
+async function goto(chemin) {
+    // recupere le json
+    const response = await fetch('data/layout.json');
+    const data = await response.json();
+
+    // utilise le premier element du chemin pour recuperer la categorie
+    const categorie = data[chemin[0]]
+
+    // set la couleur a partir de la categorie
+    couleur = categorie["couleur"]
+    document.documentElement.style.setProperty('--current-color', couleur);
+
+    // affiche la categorie
+    showcategory(categorie)
+
+    //utilise l'avant dernier element du chemin pour set la section
+    let section = {}
+    if (chemin.length = 3){
+        section = data[chemin[0]][chemin[1]]
+    } else {
+        section = data[chemin[0]][chemin[1]][chemin[2]]
+    }
+    showcards(section)
+}
+
+
 async function loadLayoutData() {
     // recupere le container des boutons
     const buttonContainer = document.querySelector("#bouttons-nav");
