@@ -13,7 +13,7 @@ const carteTitre = document.querySelector(".div_présentation_texte");
 const carteDescription = document.querySelector(".div_description");
 
 
-
+//Relier le fichier JSON
 fetch("./data/layout.json")
      .then(response => response.json()) //On transforme la réponse en JSON
      .then(data => {
@@ -27,7 +27,7 @@ fetch("./data/layout.json")
 
     if (!texte) return;
 
-//Fonction récursive
+//Fonction récursive pour chercher les clés correspondant à la recherche
 
 function chercher(obj, texte){
     let liste = [];
@@ -44,7 +44,7 @@ function chercher(obj, texte){
 
     const clesTrouvees = chercher(dataJSON, texte);
 
-
+  //Affichage des résultats dans la barre de recherche
    if (clesTrouvees.length === 0){
     resultatDiv.textContent ="Aucun élément trouvé";
     return;
@@ -57,7 +57,7 @@ function chercher(obj, texte){
     
 
     
-
+      //Au clic afficher lew informations
 div.addEventListener("click", (e) => {
     function chercherCarte(obj, nom) {
         for (let cle in obj){
@@ -70,8 +70,11 @@ div.addEventListener("click", (e) => {
         return null;
     }
 
+    //On récupère les informations associées à la clé cliquée
     const infos = chercherCarte(dataJSON, cle);
 
+    // Si l'objet existe afficher les informations ou rien au final
+    
     if (infos){
         carteImage.src = infos.image || "";
         carteImage.alt = cle;

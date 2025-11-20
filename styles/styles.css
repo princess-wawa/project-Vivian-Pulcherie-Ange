@@ -60,6 +60,7 @@ h1{
     cursor: pointer;
     font-size: 14px;
     color: #333;
+    background-color: #d8cbcb;
 }
 
 .resultat div:hover{
