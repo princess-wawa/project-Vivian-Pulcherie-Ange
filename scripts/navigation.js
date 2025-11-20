@@ -47,6 +47,9 @@ function showcards(cards){
 function showcategory(sections) {
     delete sections.couleur
 
+    // vide les cards pour pas avoir les cards d'une autre section
+    const cardcontainer = document.querySelector(".cartes-container")
+    cardcontainer.innerHTML = ''
     const sectioncontainer = document.querySelector(".sections-container")
     sectioncontainer.innerHTML = ""
 
