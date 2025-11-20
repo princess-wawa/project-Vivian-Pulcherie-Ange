@@ -109,7 +109,7 @@ function showcategory(sections) {
         }
 
         sectioncontainer.appendChild(sectiondiv)
-        
+
     }
 };
 
@@ -132,9 +132,9 @@ async function goto(chemin) {
     //utilise l'avant dernier element du chemin pour set la section
     let section = {}
     if (chemin.length = 3){
-        section = data[chemin[0]][chemin[1]]
-    } else {
         section = data[chemin[0]][chemin[1]][chemin[2]]
+    } else {
+        section = data[chemin[0]][chemin[1]][chemin[2]][chemin[3]]
     }
     showcards(section)
 }
