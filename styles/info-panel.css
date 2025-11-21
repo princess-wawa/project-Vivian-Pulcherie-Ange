@@ -1,5 +1,6 @@
 :root{
     --current-color:blue;
+  --focus-padding: 40px;
 }
 
 
@@ -20,6 +21,7 @@
     padding: 1%;
     border-right: 2px solid var(--current-color);
     gap: 1%;
+    width:20%;
 }
 
 .section {
@@ -80,6 +82,8 @@
     flex-wrap: wrap;
     height: 80vh;
     overflow: scroll;
+    gap: 1vw;
+    width: 80%;
 }
 
 .carte{
@@ -90,18 +94,22 @@
     border-radius: 20px;
 }
 
-.carte-partie-haute{
-    background-color: var(--current-color);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+/* Hover animation (normal mode only) */
+.card::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  background: var(--current-color);
+  transition: width .45s ease, height .45s ease;
+  z-index: 0;
 }
 
-.carte-partie-haute img{
-    width:100px;
+.card:hover::before {
+  width: 100%;
+  height: 100%;
 }
 
 .carte-titre-container{

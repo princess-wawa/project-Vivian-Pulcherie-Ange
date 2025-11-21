@@ -10,30 +10,42 @@ function showcards(cards){
 
         //rajoute les elements dans la card
         if ("tag" in currentcard){
-        card = `<div class="carte">
-                <div class="carte-partie-haute">
-                    <img src="${currentcard["image"]}">
-                    <div class="carte-titre-container">
-                        <span class="tag">${currentcard["tag"]}</span>
-                        <h2 class="div_présentation_texte">${key}</h2>
-                    </div>
-                </div>
-                <div class="div_description">
-                    <p>${currentcard["description"]}</p>
-                </div>
-            </div>`
+        card = ` <div class="card">
+                        <button>
+                            <div class="card-content">
+                                <img class="card-logo" src="${currentcard["image"]}">
+                                <div class="card-title">${key}</div>
+                                <div class="card-tags">
+                                    <span class="card-tag">${currentcard["tag"]}</span>
+                                </div>
+                            </div>
+
+                            <div class="card-description">
+                                <h2>Description</h2>
+                                <p>
+                                    ${currentcard["description"]}
+                                </p>
+                            </div>
+
+                        </button>
+                    </div>`
         } else {
-        card = `<div class="carte">
-                <div class="carte-partie-haute">
-                    <img src="${currentcard["image"]}">
-                    <div class="carte-titre-container">
-                        <h2 class="div_présentation_texte">${key}</h2>
-                    </div>
-                </div>
-                <div class="div_description">
-                    <p>${currentcard["description"]}</p>
-                </div>
-            </div>`
+        card =  ` <div class="card">
+                        <button>
+                            <div class="card-content">
+                                <img class="card-logo" src="${currentcard["image"]}">
+                                <div class="card-title">${key}</div>
+                            </div>
+
+                            <div class="card-description">
+                                <h2>Description</h2>
+                                <p>
+                                    ${currentcard["description"]}
+                                </p>
+                            </div>
+
+                        </button>
+                    </div>`
         }
         // ajoute la card dans le html
         cardcontainer.insertAdjacentHTML("beforeend", card)

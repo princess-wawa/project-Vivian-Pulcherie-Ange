@@ -1,3 +1,5 @@
+
+
 body{
     margin: 0;
     padding: 0;
@@ -65,10 +67,4 @@ h1{
 
 .resultat div:hover{
     background-color: #f0f0f0;
-}
-
-.carte.active{
-    background-color: #4b5fac;
-    color:#fff;
-    transition: 0.2s;
 }
