@@ -13,8 +13,6 @@
 }
 
 .sections-container{
-    flex-grow: 0;
-    flex-shrink: 0;
     display:flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -75,10 +73,8 @@
 
 
 .cartes-container{
-    flex-grow: 0;
-    padding: 20px;
-    justify-content: space-between;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     height: 80vh;
     overflow: scroll;
@@ -86,12 +82,17 @@
     width: 80%;
 }
 
-.carte{
-    flex: 0 0 auto;
-    margin: 2%;
-    width: 300px;
-    border: 1px black solid;
-    border-radius: 20px;
+.card {
+  background: white;
+  border-radius: 14px;
+  padding: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 5px 12px rgba(0,0,0,.1);
+  transition: transform .25s ease;
+  height: 150px;
+  width: 150px;
 }
 
 /* Hover animation (normal mode only) */
@@ -112,15 +113,94 @@
   height: 100%;
 }
 
-.carte-titre-container{
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    justify-content: left;
-    margin-left: 10%;
+.card * {
+  position: relative;
+  z-index: 1;
 }
 
-.div_description{
-    padding: 15px;
-    margin: 2px;
+
+
+/* Focusable button wrapper */
+.card > button {
+  all: unset;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Hide description in normal mode */
+.card-description {
+  display: none;
+}
+
+/* ------------------- FOCUS MODE ------------------- */
+.card:focus-within {
+  position: fixed;
+  inset: var(--focus-padding);
+  z-index: 2000;
+
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
+
+  /* TAKE MORE HORIZONTAL SPACE */
+  width: calc(100vw - var(--focus-padding) * 2);
+  height: calc(100vh - var(--focus-padding) * 2);
+}
+
+/* REMOVE hover animation in focus mode */
+.card:focus-within::before {
+  width: 0 !important;
+  height: 0 !important;
+  background: none !important;
+  transition: none;
+}
+
+/* LEFT PANEL (the card itself, always colored) */
+.card:focus-within .card-content {
+  flex: 1;
+  background: var(--current-color);
+  border-radius: 14px;
+  padding: 40px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.25);
+  overflow: hidden;
+}
+
+/* RIGHT PANEL (description) */
+.card:focus-within .card-description {
+  display: block;
+  flex: 1.5;                 /* more space for text */
+  background: white;
+  border-radius: 14px;
+  padding: 40px;
+  overflow-y: auto;
+  box-shadow: 0 10px 25px rgba(0,0,0,.18);
+}
+
+/* ------------------- CONTENT ------------------- */
+.card-logo {
+  width: 50px;
+  margin-bottom: 10px;
+}
+.card-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.card-tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.card-tag {
+  background: rgba(255,255,255,.25);
+  padding: 5px 8px;
+  border-radius: 6px;
+  font-size: .8rem;
 }
