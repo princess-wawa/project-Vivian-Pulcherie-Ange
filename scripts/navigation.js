@@ -1,3 +1,24 @@
+// variable globale pour le "?chemin="" dans l'url
+let chemin = [];
+
+// fonction pour modifier le chemin
+function setChemin(index, text) {
+    // enleve tout les elements a droite de celui qu'on set
+    chemin.length = index + 1;
+    
+    // met le texte a l'index
+    chemin[index] = text.replace(/ /g, "-");
+
+    // faire le bon string pour l'url
+    const cheminString = chemin
+        .map(part => encodeURIComponent(part)) // encode les caracteres speciaux
+        .join("/"); // met des / entre les elements
+
+    // met a jour l'URL
+    const newUrl = window.location.pathname + "?chemin=" + cheminString;
+    history.pushState({ chemin }, "", newUrl);
+}
+
 function formatdescription(description) {
     var FormattedDescription = ""
     description.forEach(partie => {
@@ -7,7 +28,6 @@ function formatdescription(description) {
             FormattedDescription += `<${partie.balise}>${partie.content}</${partie.balise}>\n`
         }
     })
-    console.log(FormattedDescription)
     return FormattedDescription
 }
 
@@ -57,7 +77,6 @@ function showcards(cards) {
                         
                     </div>`
         }
-        console.log(card)
         // ajoute la card dans le html
         cardcontainer.insertAdjacentHTML("beforeend", card)
     }
@@ -101,6 +120,7 @@ function showcategory(sections) {
             // ajoute l'action du boutton
             newsectionbtn.addEventListener('click', () => {
                 showcards(sections[key])
+                setChemin(1, key)
             });
             // rajoute le bouton dans la div de la section
             sectiondiv.appendChild(newsectionbtn)
@@ -126,6 +146,8 @@ function showcategory(sections) {
                 // ajoute l'action du boutton
                 newsectionbtn.addEventListener('click', () => {
                     showcards(sections[key][children])
+                    setChemin(1, key)
+                    setChemin(2,children)
                 });
                 sectiondiv.appendChild(newsectionbtn)
             }
@@ -151,13 +173,17 @@ async function goto(chemin) {
 
     // affiche la categorie
     showcategory(categorie)
+    setChemin(0,chemin[0])
 
     //utilise l'avant dernier element du chemin pour set la section
     let section = {}
+    setChemin(1,chemin[1])
+    console.log(chemin)
     if (chemin.length = 3) {
         section = data[chemin[0]][chemin[1]][chemin[2]]
+        setChemin(2,chemin[2])
     } else {
-        section = data[chemin[0]][chemin[1]][chemin[2]][chemin[3]]
+        section = data[chemin[0]][chemin[1]]
     }
     showcards(section)
 }
@@ -189,9 +215,28 @@ async function loadLayoutData() {
         newbtn.addEventListener('click', () => {
             document.documentElement.style.setProperty('--current-color', couleur);
             showcategory(valeurs)
+            setChemin(0,key)
         });
         buttonContainer.appendChild(newbtn);
     }
 }
 
-document.addEventListener('DOMContentLoaded', loadLayoutData);
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    loadLayoutData();
+
+    // recupere ?chemin=
+    const params = new URLSearchParams(window.location.search);
+    const cheminParam = params.get("chemin");
+
+    if (!cheminParam) return;
+
+    // transforme "A-B/C-D" → ["A B", "C D"]
+    const chemin = cheminParam
+        .split("/")
+        .map(part => part.replace(/-/g, " "));
+    console.log(chemin)
+    goto(chemin);
+});
