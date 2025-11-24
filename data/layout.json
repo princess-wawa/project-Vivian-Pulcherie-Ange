@@ -11,10 +11,6 @@
                             "content": "Angular (également appelé Angular 2+ pour le distinguer de son prédécesseur AngularJS) est un framework pour clients, open source, basé sur TypeScript et codirigé par l'équipe du projet « Angular » chez Google ainsi que par une communauté de particuliers et de sociétés. Angular est une réécriture complète d'AngularJS. Il permet la création d’applications Web et plus particulièrement d'applications Web monopages : des applications Web accessibles via une page Web unique qui permet de fluidifier l’expérience utilisateur et d’éviter les chargements de pages à chaque nouvelle action. Le framework est basé sur une architecture du type MVC et permet donc de séparer les données, le visuel et les actions pour une meilleure gestion des responsabilités. Selon l'enquête Stack Overflow auprès des développeurs, Angular est l'un des frameworks web les plus utilisés."
                         },
                         {
-                            "balise":"button",
-                            "content":"texte "
-                        },
-                        {
                             "balise":"img",
                             "content":"data/images/angular-example.png"
                         }

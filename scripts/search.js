@@ -33,19 +33,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     // pour chaque objet qu'on a 
                     for (let cle in obj) {
-                        // chemin mis à jour pour cette clé
-                        let nouveauChemin = [...chemin, cle];
+                        if (cle !== "couleur"){
+                            // chemin mis à jour pour cette clé
+                                let nouveauChemin = [...chemin, cle];
 
-                        // si la clé correspond au texte recherché
-                        if (cle.toLowerCase().includes(texte)) {
-                            resultats.push(nouveauChemin);
-                        }
+                            // si la clé correspond au texte recherché
+                            if (cle.toLowerCase().includes(texte)) {
+                                resultats.push(nouveauChemin);
+                            }
 
-                        // si la valeur est un objet, faire la recherche de facon recursive dedans
-                        if (typeof obj[cle] === "object" && obj[cle] !== null) {
-                            resultats = resultats.concat(
-                                chercher(obj[cle], texte, nouveauChemin)
-                            );
+                            // si la valeur est un objet, faire la recherche de facon recursive dedans
+                            if (typeof obj[cle] === "object" && obj[cle] !== null && !("description" in obj[cle])) {
+                                resultats = resultats.concat(
+                                    chercher(obj[cle], texte, nouveauChemin)
+                                );
+                            }
                         }
                     }
 
