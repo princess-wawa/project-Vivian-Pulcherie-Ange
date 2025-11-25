@@ -73,14 +73,17 @@
 
 
 .cartes-container{
+  justify-content: flex-start;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     height: 80vh;
     overflow: scroll;
-    gap: 10px;
+    gap: 40px;
     width: 80%;
     align-content: start;
+    padding-top: 20px;
+    margin: 20px;
 }
 
 .card {
@@ -218,6 +221,61 @@
   width: 100%;
 }
 
+   .navigation-container{
+        gap : 12px;
+    }
 
-    
-    
+    /*--Pour téléphone*/
+
+@media screen and (width<=600px) {
+
+  
+  body{
+    padding-bottom: 5px;
+  }
+
+       /*--Header en colonne*/
+  .header-container{
+        /*--Les éléments s'empilent*/
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 5% 10px 5%;
+  }
+
+      /*--Le logo agrandit et centré*/
+  .header-container img{
+    width: 50%;
+    max-width: 150px;
+    margin-bottom: 15x;
+  }
+               /*--Barre de recherche large*/
+  .seachbar{
+    width: 90%;
+    text-align: center;
+  }
+
+      /*--Réglage de l'input*/
+  .seachbar input{
+        /*--S'assure que le champ de saisie prend la largeur de 90% définie ci-dessus*/
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .section{
+    gap :16px;
+  }
+  .section button{
+    text-align: center;
+    gap: 15px;
+    font-size: 14px;
+    text-align:center;
+    word-wrap: break-word; /* permet de couper les mots trop longs si nécessaire */
+    overflow-wrap: break-word;
+  }
+  .seachbar button{
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+}
