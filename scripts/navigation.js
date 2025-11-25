@@ -222,8 +222,6 @@ async function loadLayoutData() {
 }
 
 
-
-
 document.addEventListener('DOMContentLoaded', () => {
     loadLayoutData();
 
@@ -240,3 +238,7 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log(chemin)
     goto(chemin);
 });
+  
+//
+
+
