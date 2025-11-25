@@ -1,9 +1,18 @@
-
-
-body{
+body {
     margin: 0;
     padding: 0;
+    top:0;
+    background-image: url('../data/images/logo-white.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top 70vh left 70vw;
+    background-size: 25%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
+
+
 
 header{
     padding-bottom: 2%;
@@ -73,12 +82,6 @@ h1{
 }
 
 /* S'assurer que le pied de page est toujours en bas (approche sticky footer si le contenu est court) */
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* La page doit prendre au moins toute la hauteur de la fenêtre */
-    margin: 0;
-}
 
 /* Le contenu principal doit prendre tout l'espace restant */
 main { 
