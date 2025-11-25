@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Ma liste d'images de fond.
     const imagePaths = [
-        "url('images-removebg-preview.png')", 
-        "url('exernatic.png')",
+        "url('data/images/externatic.png')", 
+        "url('data/images/logo-white.png')",
     ];
     
     // Mon index pour savoir quelle image est affichée (je commence à 0).
