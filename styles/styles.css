@@ -41,7 +41,10 @@ h1{
     justify-content:flex-end;
     align-items: flex-end;
 }
-
+#tech-list {
+    position: relative; 
+    /* ... Vos autres styles pour #tech-list ... */
+}
 .resultat{
     position: absolute;
     margin-top: 4px;
@@ -67,4 +70,41 @@ h1{
 
 .resultat div:hover{
     background-color: #f0f0f0;
+}
+
+/* S'assurer que le pied de page est toujours en bas (approche sticky footer si le contenu est court) */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* La page doit prendre au moins toute la hauteur de la fenêtre */
+    margin: 0;
+}
+
+/* Le contenu principal doit prendre tout l'espace restant */
+main { 
+    flex-grow: 1;
+    /* Assurez-vous que l'élément qui contient votre contenu principal a aussi un flex-grow: 1 */
+}
+
+/* Style du pied de page lui-même */
+#app-footer {
+    background-color: #333; /* Un fond sombre classique */
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 0.95em;
+    border-top: 1px solid #444;
+
+}
+
+/* Styles pour la navigation ou les liens dans le footer */
+.footer-nav a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-nav a:hover {
+    color: #fff;
+    text-decoration: underline;
 }
